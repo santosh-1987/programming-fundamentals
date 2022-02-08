@@ -1,0 +1,59 @@
+# Project information
+site_name: "Programming Fundamentals"
+site_description: "Programming Concepts"
+site_url: "https://santosh-1987.github.io/programming-fundamentals/"
+
+# Repository
+repo_name: "Click here to edit"
+repo_url: "https://github.com/santosh-1987/programming-fundamentals"
+
+edit_uri: "https://github.com/santosh-1987/programming-fundamentals/blob/master/docs"
+
+nav:
+  - Home: index.md
+  - Programming Construct:
+    - Construct: programming-constructs/index.md
+
+# Configuration
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - ruby
+  include_homepage_in_sidebar: true
+  collapse_navigation: true
+  logo: "assets/images/programmer.png"
+  favicon: "assets/images/programmer.png"
+  feature:
+    - navigation.tabs
+  language: "en"
+  palette:
+    primary: "blue"
+    accent: "green"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+extra_css:
+  - custom.css
+extra:
+  search:
+    tokenizer: '[\s\-\.]+'
+  version:
+    provider: mike
+
+plugins:
+  - search:
+     separator: '[\s\-\.]+'
+     prebuild_index: true
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
