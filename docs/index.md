@@ -18,9 +18,15 @@ We are techies with a passion for technology and solving problems.
 ### Programming Construct
 - Concepts of [Programming Construct](/programming-constructs/).
 
+### Search Algorithms
+  - Linear search
+  - Binary Search
 ### Data Structures
 
+- Coming Soon
 
+### Design Patterns
+ - Coming Soon
 
 ### How we accomplish this?
 
