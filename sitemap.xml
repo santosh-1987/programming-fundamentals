@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/repetition/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/routine_invocation/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/selection/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/sequence/</loc>
+         <lastmod>2022-02-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
