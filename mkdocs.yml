@@ -19,20 +19,20 @@ nav:
 
 # Configuration
 theme:
-  name: readthedocs
+  name: material
   highlightjs: true
   hljs_languages:
     - yaml
     - ruby
   include_homepage_in_sidebar: true
   collapse_navigation: true
-  logo: "assets/images/programmer.png"
-  favicon: "assets/images/programmer.png"
+  logo: "assets/images/logo.jpeg"
+  favicon: "assets/images/favicon.jpeg"
   feature:
     - navigation.tabs
   language: "en"
   palette:
-    primary: "blue"
+    primary: "teal"
     accent: "green"
   font:
     text: "Roboto"

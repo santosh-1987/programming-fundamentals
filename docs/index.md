@@ -27,3 +27,6 @@ We are techies with a passion for technology and solving problems.
 - Learn and understand concepts
 - Code and Review
 - [Project's related to concepts](https://github.com/santosh-1987/ScalingChallenges)
+
+### Know us
+[About Me](http://susant.in/)
