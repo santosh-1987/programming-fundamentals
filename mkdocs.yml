@@ -4,15 +4,18 @@ site_description: "Programming Concepts"
 site_url: "https://santosh-1987.github.io/programming-fundamentals/"
 
 # Repository
-repo_name: "Click here to edit"
-repo_url: "https://github.com/santosh-1987/programming-fundamentals"
-
-edit_uri: "https://github.com/santosh-1987/programming-fundamentals/blob/master/docs"
+# repo_name: "Click here to edit"
+# repo_url: "https://github.com/santosh-1987/programming-fundamentals"
+# edit_uri: "https://github.com/santosh-1987/programming-fundamentals/blob/master/docs"
 
 nav:
   - Home: index.md
-  - Programming Construct:
-    - Construct: programming-constructs/index.md
+  - Program Constructs:
+    - Construct Definition: programming-constructs/index.md
+    - Sequence: programming-constructs/sequence.md
+    - Selection: programming-constructs/selection.md
+    - Iteration: programming-constructs/repetition.md
+    - Routine Invocation: programming-constructs/routine_invocation.md
 
 # Configuration
 theme:
@@ -57,3 +60,4 @@ markdown_extensions:
   - footnotes
   - toc:
       permalink: true
+      baselevel: 2
