@@ -2,32 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://santosh-1987.github.io/programming-fundamentals/</loc>
-         <lastmod>2022-02-08</lastmod>
+         <lastmod>2022-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/</loc>
-         <lastmod>2022-02-08</lastmod>
+         <lastmod>2022-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/repetition/</loc>
-         <lastmod>2022-02-08</lastmod>
+         <lastmod>2022-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/routine_invocation/</loc>
-         <lastmod>2022-02-08</lastmod>
+         <lastmod>2022-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/selection/</loc>
-         <lastmod>2022-02-08</lastmod>
+         <lastmod>2022-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://santosh-1987.github.io/programming-fundamentals/programming-constructs/sequence/</loc>
-         <lastmod>2022-02-08</lastmod>
+         <lastmod>2022-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/recursion/recursion/</loc>
+         <lastmod>2022-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/search-algorithms/binary-search/</loc>
+         <lastmod>2022-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/search-algorithms/linear-search/</loc>
+         <lastmod>2022-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://santosh-1987.github.io/programming-fundamentals/search-algorithms/search/</loc>
+         <lastmod>2022-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
