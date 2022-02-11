@@ -1,6 +1,6 @@
-# Welcome to Programming Fundamentals
+## Welcome to Programming Fundamentals
 
-![image](assets/images/programmer.png)
+![image](assets/images/programmer.gif)
 
 We are techies with a passion for technology and solving problems.
 
@@ -16,11 +16,12 @@ We are techies with a passion for technology and solving problems.
 **_Try yourself before reaching out for help._**
 
 ### Programming Construct
-- Concepts of [Programming Construct](/programming-constructs/).
+- Concepts of [Programming Construct](programming-constructs/index.md).
 
 ### Search Algorithms
-  - Linear search
-  - Binary Search
+  - [Linear search](search-algorithms/linear-search.md)
+  - [Binary Search](search-algorithms/binary-search.md)
+
 ### Data Structures
 
 - Coming Soon

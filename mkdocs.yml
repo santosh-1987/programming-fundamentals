@@ -16,6 +16,11 @@ nav:
     - Selection: programming-constructs/selection.md
     - Iteration: programming-constructs/repetition.md
     - Routine Invocation: programming-constructs/routine_invocation.md
+  - Search Algorithms:
+      - Saerch Concept: search-algorithms/search.md
+      - Linear Search: search-algorithms/linear-search.md
+      - Binary Search: search-algorithms/binary-search.md
+  - Recursion: recursion/recursion.md
 
 # Configuration
 theme:
