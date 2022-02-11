@@ -20,7 +20,9 @@ nav:
       - Search Concept: search-algorithms/search.md
       - Linear Search: search-algorithms/linear-search.md
       - Binary Search: search-algorithms/binary-search.md
-  - Recursion: recursion/recursion.md
+  - Loops:
+    -  Loop: loops/index.md
+    -  Recursion: loops/recursion.md
 
 # Configuration
 theme:
