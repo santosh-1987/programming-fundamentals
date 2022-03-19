@@ -23,6 +23,8 @@ nav:
   - Loops:
     -  Loop: loops/index.md
     -  Recursion: loops/recursion.md
+  - Bit Manipulation:
+     - Logical Operator: bit-manipulation/bit_manipulation.md
 
 # Configuration
 theme:

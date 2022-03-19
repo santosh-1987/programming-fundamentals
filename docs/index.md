@@ -22,6 +22,8 @@ We are techies with a passion for technology and solving problems.
   - [Linear search](search-algorithms/linear-search.md)
   - [Binary Search](search-algorithms/binary-search.md)
 
+### Bit Manipulation
+- [Logical Operator Manipulation](bit-manipulation/bit_manipulation.md)
 ### Data Structures
 
 - Coming Soon
