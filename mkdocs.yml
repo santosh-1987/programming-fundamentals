@@ -25,7 +25,7 @@ nav:
     -  Recursion: loops/recursion.md
   - Bit Manipulation:
      - Logical Operator: bit-manipulation/bit_manipulation.md
-
+     - Shift Operator: bit-manipulation/shift_operator.md
 # Configuration
 theme:
   name: material

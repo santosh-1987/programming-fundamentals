@@ -24,6 +24,7 @@ We are techies with a passion for technology and solving problems.
 
 ### Bit Manipulation
 - [Logical Operator Manipulation](bit-manipulation/bit_manipulation.md)
+- [Shift Operators](bit-manipulation/shift_operator.md)
 ### Data Structures
 
 - Coming Soon
