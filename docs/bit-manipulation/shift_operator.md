@@ -1,6 +1,6 @@
 ### Left Shift Operator
 
-- Formulae: `a << N = a * 2^n`
+- Formulae: `a << N` = a * 2<sup>n</sup>
   - a `->` Input Number
   - N `->` How many times the number a should be shifted
 
@@ -15,7 +15,7 @@
 
 ### Right Shift Operator
 
-- Formulae: `a >> N = a / 2^n`
+- Formulae: `a >> N` = a / 2<sup>n</sup>
     - a `->` Input Number
     - N `->` How many times the number a should be shifted
 
