@@ -26,6 +26,8 @@ nav:
   - Bit Manipulation:
      - Logical Operator: bit-manipulation/bit_manipulation.md
      - Shift Operator: bit-manipulation/shift_operator.md
+  - Arrays:
+      - Introduction: arrays/introduction.md
 # Configuration
 theme:
   name: material
