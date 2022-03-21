@@ -11,23 +11,24 @@ site_url: "https://santosh-1987.github.io/programming-fundamentals/"
 nav:
   - Home: index.md
   - Program Constructs:
-    - Construct Definition: programming-constructs/index.md
-    - Sequence: programming-constructs/sequence.md
-    - Selection: programming-constructs/selection.md
-    - Iteration: programming-constructs/repetition.md
-    - Routine Invocation: programming-constructs/routine_invocation.md
+      - Construct Definition: programming-constructs/index.md
+      - Sequence: programming-constructs/sequence.md
+      - Selection: programming-constructs/selection.md
+      - Iteration: programming-constructs/repetition.md
+      - Routine Invocation: programming-constructs/routine_invocation.md
   - Search Algorithms:
       - Search Concept: search-algorithms/search.md
       - Linear Search: search-algorithms/linear-search.md
       - Binary Search: search-algorithms/binary-search.md
   - Loops:
-    -  Loop: loops/index.md
-    -  Recursion: loops/recursion.md
+      - Loop: loops/index.md
+      - Recursion: loops/recursion.md
   - Bit Manipulation:
-     - Logical Operator: bit-manipulation/bit_manipulation.md
-     - Shift Operator: bit-manipulation/shift_operator.md
+      - Logical Operator: bit-manipulation/bit_manipulation.md
+      - Shift Operator: bit-manipulation/shift_operator.md
   - Arrays:
       - Introduction: arrays/introduction.md
+      - Maths: arrays/maths.md
 # Configuration
 theme:
   name: material
@@ -62,8 +63,8 @@ extra:
 
 plugins:
   - search:
-     separator: '[\s\-\.]+'
-     prebuild_index: true
+      separator: '[\s\-\.]+'
+      prebuild_index: true
 
 # Extensions
 markdown_extensions:
