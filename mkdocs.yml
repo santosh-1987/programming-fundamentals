@@ -29,6 +29,7 @@ nav:
   - Arrays:
       - Introduction: arrays/introduction.md
       - Maths: arrays/maths.md
+      - Sorting Introduction: arrays/sorting.md
 # Configuration
 theme:
   name: material
