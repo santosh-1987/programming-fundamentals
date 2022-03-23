@@ -30,12 +30,12 @@ The comparison operator is used to decide the new order of element in the respec
 > 1,3,9,6,12
 >
 > 1 has 1 factor, 2 has 3 factors, 3 has 9 factors ...
-> ![sorting_by_factor.png](../assets/images/arrays/sorting_by_factor.png)
+> ![sorting_by_factor.png](../../assets/images/arrays/sorting_by_factor.png)
 
 ### How Sorting Happens?
 All Sorting algo are comparison based , It compares two elements and swap based on use case.
 
-![plain_sort.gif](../assets/images/arrays/plain_sort.gif)
+![plain_sort.gif](../../assets/images/arrays/plain_sort.gif)
 
 ### Notes
 

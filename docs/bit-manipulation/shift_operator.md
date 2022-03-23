@@ -11,7 +11,7 @@
  3 << 3 = 3 * 2^3
 ```
 
-![left_shift.png](../assets/images/bit_manipulation/left_shift.png)
+![left_shift.png](../../assets/images/bit_manipulation/left_shift.png)
 
 ### Right Shift Operator
 
@@ -25,7 +25,7 @@
  2 >> 2 = 2 / 2^2       
  3 >> 3 = 3 / 2^3
 ```
-![right_shift.png](../assets/images/bit_manipulation/right_shift.png)
+![right_shift.png](../../assets/images/bit_manipulation/right_shift.png)
 
 ### Tips & Tricks
 

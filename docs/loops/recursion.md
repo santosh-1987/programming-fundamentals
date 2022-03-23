@@ -5,11 +5,11 @@ The process in which a function calls itself directly or indirectly is called re
 Recursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to call a function inside the same function, then it is called a recursive call of the function.
 
 - **Fibonacci Series**
-  ![image](../assets/images/recursion/recursion_fib.gif)
+  ![image](../../assets/images/recursion/recursion_fib.gif)
  
 - **Tower of Hanoi**
   
-![image](../assets/images/recursion/tower-of-hanoi.gif)
+![image](../../assets/images/recursion/tower-of-hanoi.gif)
 
 
 ### When to Loop? When to Recurse?

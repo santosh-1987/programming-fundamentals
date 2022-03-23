@@ -8,7 +8,7 @@ If each element is equally likely to be searched, then linear search has an aver
 
 
 ####Linear search of array
-  ![image](../assets/images/search_algos/linear-search-flow-chart.jpeg)
+  ![image](../../assets/images/search_algos/linear-search-flow-chart.jpeg)
 
 
 ##### Let us understand this with an example:

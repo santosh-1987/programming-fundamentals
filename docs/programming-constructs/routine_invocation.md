@@ -9,4 +9,4 @@ Unlike a goto statement, routine invocation guarantees that the flow of control 
  - Rake Tasks
  - Background Jobs
 
- ![image](../assets/images/routine-invocation.webp)
+ ![image](../../assets/images/routine-invocation.webp)

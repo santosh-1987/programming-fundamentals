@@ -5,7 +5,7 @@ An infinite loop is one that lacks a functioning exit routine.
 
 The result is that the loop repeats continually until the operating system senses it and terminates the program with an error or until some other event occurs.
  
-![image](../assets/images/loops/pre-condition-loop.png)
+![image](../../assets/images/loops/pre-condition-loop.png)
 
 #### Types of Loops
 - **_Entry Controlled Loop_** 
@@ -17,7 +17,7 @@ The result is that the loop repeats continually until the operating system sense
     - In an exit controlled Loop, The control statement is written at the end of the Loop structure. 
     - The lines of codes in the body of the Loop are executed once before the condition is checked. Hence, this type of Loop is also called a post-checking Loop.   
 
-![image](../assets/images/loops/loop-type.png)
+![image](../../assets/images/loops/loop-type.png)
 
 | # |Loop Type| Description |
 | ------ | ---- | ---- |
