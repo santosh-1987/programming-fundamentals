@@ -8,5 +8,5 @@ In programming languages, this is the **_statement following the current stateme
 - Each step is followed in a specific sequence, hence the name
 - Sequence can be thought of as “do this, then do this, then do this”
 
-![image](../../assets/images/sequence_flow_chart.jpeg)
-![image](../../assets/images/sequence.png)
+![image](../assets/images/sequence_flow_chart.jpeg)
+![image](../assets/images/sequence.png)

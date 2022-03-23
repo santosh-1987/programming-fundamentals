@@ -21,19 +21,19 @@ Operations Performed in Bit that improves execution time as it acts on bits dire
 
 ### Decimal to Binary
 
-![decimal_to_binary.png](../../assets/images/bit_manipulation/decimal_to_binary.png)
+![decimal_to_binary.png](../assets/images/bit_manipulation/decimal_to_binary.png)
 
 ---------------------------------------
 
 ### Decimal Addition
 
-![decimal_addition.png](../../assets/images/bit_manipulation/decimal_addition.png)
+![decimal_addition.png](../assets/images/bit_manipulation/decimal_addition.png)
 
 ---------------------------------------
 
 ### Binary Addition
 
-![binary_addition.png](../../assets/images/bit_manipulation/binary_addition.png)
+![binary_addition.png](../assets/images/bit_manipulation/binary_addition.png)
 
 ---------------------------------------
 
@@ -53,19 +53,19 @@ Operations Performed in Bit that improves execution time as it acts on bits dire
 
 ### Notes
 
-![tips_or_operator.png](../../assets/images/bit_manipulation/tips_or_operator.png)
+![tips_or_operator.png](../assets/images/bit_manipulation/tips_or_operator.png)
 
 ---------------------------------------
 
-![tips_and_operator.png](../../assets/images/bit_manipulation/tips_and_operator.png)
+![tips_and_operator.png](../assets/images/bit_manipulation/tips_and_operator.png)
 
 ---------------------------------------
 
-![tips_xor_1.png](../../assets/images/bit_manipulation/tips_xor_1.png)
+![tips_xor_1.png](../assets/images/bit_manipulation/tips_xor_1.png)
 
 ---------------------------------------
 
-![tips_operator.png](../../assets/images/bit_manipulation/tips_operator.png)
+![tips_operator.png](../assets/images/bit_manipulation/tips_operator.png)
 
 ---------------------------------------
 

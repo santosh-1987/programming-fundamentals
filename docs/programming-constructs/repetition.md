@@ -15,5 +15,5 @@ Iteration logic is used when one or more instructions may be executed several ti
  - recursion..
  - anything that loops
 
-![image](../../assets/images/iteration_flow_chart.jpeg)
-![image](../../assets/images/loop.gif)
+![image](../assets/images/iteration_flow_chart.jpeg)
+![image](../assets/images/loop.gif)

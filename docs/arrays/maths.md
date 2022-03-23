@@ -30,7 +30,7 @@ Some interesting fact about Prime numbers
 
 An integer that can be expressed as the square of another integer is called a perfect square. In other words, it is
 defined as the product of some integer with itself.
-![perfect_square.png](../../assets/images/arrays/perfect_square.png)
+![perfect_square.png](../assets/images/arrays/perfect_square.png)
 
 ## Factor of a Number
 
@@ -47,17 +47,17 @@ no remainder.
 **How to Find Factors of a Number?**
 
 - We can use both "Division" to find the factors.
-  ![factors_by_division.png](../../assets/images/arrays/factors_by_division.png)
+  ![factors_by_division.png](../assets/images/arrays/factors_by_division.png)
 - We can use both "Multiplication" to find the factors of a given number.
-  ![factors_by_multiplication.png](../../assets/images/factors_by_multiplication/img.png)
+  ![factors_by_multiplication.png](../assets/images/factors_by_multiplication/img.png)
 - Prime factorizaation
-  ![prime_factorization.png](../../assets/images/arrays/prime_factorization.png)
+  ![prime_factorization.png](../assets/images/arrays/prime_factorization.png)
   In the exponent form: 108 = 22 × 33. Add 1 to each of the exponents, 2 and 3, here. Then, 2 + 1 = 3, 3 + 1 = 4.
   Multiply these numbers: 3 × 4 = 12. Thus, Number of factors of 108 is 12. The actual factors of 108 are 1, 2, 3, 4, 6,
   9, 12, 18, 27, 36, 54, and 108. Here, 108 has 12 factors and hence our above answer is correct.
 
 > Note: `Factors Appear in form of Pairs. Even no of Factors cannot be a Perfect Square.`
-> ![factors_note.png](../../assets/images/arrays/factors_note.png)
+> ![factors_note.png](../assets/images/arrays/factors_note.png)
 
 ## Problems
 
