@@ -41,7 +41,8 @@ We are techies with a passion for technology and solving problems.
     - 2D Matrices
     - Interview Problems
     - Arrays Advanced Problems
-
+- Strings
+  - [Introduction](strings/introduction.md)
 ### Design Patterns
 
 - Coming Soon
