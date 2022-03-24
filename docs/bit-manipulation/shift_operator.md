@@ -1,8 +1,8 @@
 ### Left Shift Operator
 
 - Formulae: `a << N` = a * 2<sup>n</sup>
-  - a `->` Input Number
-  - N `->` How many times the number a should be shifted
+    - a `->` Input Number
+    - N `->` How many times the number a should be shifted
 
 ```java
  1 << 3 = 1 * 2^3
@@ -25,11 +25,13 @@
  2 >> 2 = 2 / 2^2       
  3 >> 3 = 3 / 2^3
 ```
+
 ![right_shift.png](../assets/images/bit_manipulation/right_shift.png)
 
 ### Tips & Tricks
 
 - N & (N-1) Unsets the right most set bit.
+
 ```ruby
   def check_bit_right_shift(num, bit_no)
     return (num >> bit_no) & 1 == 1 ? true : false
@@ -49,3 +51,7 @@
     return num ^ (1 << bit_no)
   end
 ```
+
+### Problems & Solutions:
+
+[Bit Manipulation Problem & Solutions](https://github.com/santosh-1987/RubyScripts/tree/master/Scaler/bit_manipualtion)

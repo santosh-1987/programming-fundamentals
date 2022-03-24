@@ -86,3 +86,6 @@ Operations Performed in Bit that improves execution time as it acts on bits dire
 - EvenNum | 1 = EvenNum + 1
 - OddNum | 1 = OddNum
 - a | a = a
+
+### Problems & Solutions:
+[Bit Manipulation Problem & Solutions](https://github.com/santosh-1987/RubyScripts/tree/master/Scaler/bit_manipualtion)

@@ -29,10 +29,15 @@ An array is a collection of items stored at contiguous memory locations.
 - Used to Implement other data structures like Stacks, Queues, Heaps, Hash tables, etc.
 
 ### Looping through Array
-```java
-int[] a = {1,2,3,4,0,98}
 
-for(int i=0; i<a.length;i++){
+```java
+int[]a={1,2,3,4,0,98}
+
+for(int i=0;i<a.length;i++){
     System.out.println(a[i])
 }
 ```
+
+### Problems & Solutions
+
+[Array Problems](https://github.com/santosh-1987/RubyScripts/tree/master/Scaler/array_problems)
