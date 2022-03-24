@@ -10,14 +10,14 @@
       
       
       
-        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/bit-manipulation/shift_operator/">
+        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/strings/introduction/">
       
       <link rel="icon" href="../../assets/images/favicon.jpeg">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
     
     
       
-        <title>Shift Operator - Programming Fundamentals</title>
+        <title>Introduction - Programming Fundamentals</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#left-shift-operator" class="md-skip">
+        <a href="#strings" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Shift Operator
+              Introduction
             
           </span>
         </div>
@@ -453,14 +453,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
       
       
       
@@ -483,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../bit_manipulation/" class="md-nav__link">
+      <a href="../../bit-manipulation/bit_manipulation/" class="md-nav__link">
         Logical Operator
       </a>
     </li>
@@ -495,69 +493,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Shift Operator
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../bit-manipulation/shift_operator/" class="md-nav__link">
         Shift Operator
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#left-shift-operator" class="md-nav__link">
-    Left Shift Operator
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#right-shift-operator" class="md-nav__link">
-    Right Shift Operator
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tips-tricks" class="md-nav__link">
-    Tips &amp; Tricks
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#problems-solutions" class="md-nav__link">
-    Problems &amp; Solutions:
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -670,30 +610,64 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#left-shift-operator" class="md-nav__link">
-    Left Shift Operator
+  <a href="#strings" class="md-nav__link">
+    Strings
+  </a>
+  
+    <nav class="md-nav" aria-label="Strings">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-does-computer-stores-strings" class="md-nav__link">
+    How does computer stores strings?
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#right-shift-operator" class="md-nav__link">
-    Right Shift Operator
+        
+          <li class="md-nav__item">
+  <a href="#mutability" class="md-nav__link">
+    Mutability?
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#tips-tricks" class="md-nav__link">
-    Tips &amp; Tricks
+        
+          <li class="md-nav__item">
+  <a href="#why-are-string-objects-immutable" class="md-nav__link">
+    Why are String objects immutable?
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#problems-solutions" class="md-nav__link">
-    Problems &amp; Solutions:
+        
+          <li class="md-nav__item">
+  <a href="#difference-between-stringbuffer-and-stringbuilder" class="md-nav__link">
+    Difference between StringBuffer and StringBuilder
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    Tips
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    Problems:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#solutions" class="md-nav__link">
+    Solutions
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -711,60 +685,93 @@
                 
 
 
-  <h1>Shift Operator</h1>
+  <h1>Introduction</h1>
 
-<h4 id="left-shift-operator">Left Shift Operator<a class="headerlink" href="#left-shift-operator" title="Permanent link">&para;</a></h4>
+<h3 id="strings">Strings<a class="headerlink" href="#strings" title="Permanent link">&para;</a></h3>
+<p>String is defined as <code>Sequence</code> of characters, <code>Group</code> of characters, <code>Array</code> of characters, <code>List</code> of characters</p>
+<p>What is a Character? Character is a Datatype which stores data in fixed length field. e.g <code>a</code>, <code>A</code>, <code>z</code>, <code>|</code></p>
+<h4 id="how-does-computer-stores-strings">How does computer stores strings?<a class="headerlink" href="#how-does-computer-stores-strings" title="Permanent link">&para;</a></h4>
+<p>Since computer only understand binary, hence they can only store number, So computers have mapping of character into
+numbers.
+<img alt="charcter_storage.png" src="../../assets/strings/introduction/charcter_storage.png" /></p>
+<h4 id="mutability">Mutability?<a class="headerlink" href="#mutability" title="Permanent link">&para;</a></h4>
+<p>/ liability or tendency to change /</p>
 <ul>
-<li>Formulae: <code>a &lt;&lt; N</code> = a * 2<sup>n</sup><ul>
-<li>a <code>-&gt;</code> Input Number</li>
-<li>N <code>-&gt;</code> How many times the number a should be shifted</li>
+<li>The mutable objects are objects whose value can be changed after initialization.</li>
+<li>The immutable objects are objects whose value cannot be changed after initialization.</li>
+</ul>
+<p>In <code>Java</code> Strings are Immutable, In <code>Ruby</code> Strings are Mutable for version &lt; 3.0</p>
+<h4 id="why-are-string-objects-immutable">Why are String objects immutable?<a class="headerlink" href="#why-are-string-objects-immutable" title="Permanent link">&para;</a></h4>
+<ul>
+<li>As applications grow, it’s very common for String literals to occupy a large area of memory, which can even cause
+  redundancy. So, in order to make Java more efficient, the JVM sets aside a special area of memory called the “String
+  constant pool”.</li>
+<li>The String constant pool is a special memory area. When we declare a String literal, the JVM creates the object in the
+  pool and stores its reference on the stack. Before creating each String object in memory, the JVM performs some steps
+  to decrease the memory overhead.</li>
+</ul>
+<h4 id="difference-between-stringbuffer-and-stringbuilder">Difference between StringBuffer and StringBuilder<a class="headerlink" href="#difference-between-stringbuffer-and-stringbuilder" title="Permanent link">&para;</a></h4>
+<p>Java provides three classes to represent a sequence of characters: String, StringBuffer, and StringBuilder. The String
+class is an immutable class whereas StringBuffer and StringBuilder classes are mutable.</p>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>StringBuffer</th>
+<th>StringBuilder</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>StringBuffer is synchronized i.e. thread safe. It means two threads can't call the methods of StringBuffer simultaneously.</td>
+<td>StringBuilder is non-synchronized i.e. not thread safe. It means two threads can call the methods of StringBuilder simultaneously.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>StringBuffer is less efficient than StringBuilder.</td>
+<td>StringBuilder is more efficient than StringBuffer.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>StringBuffer was introduced in Java 1.0</td>
+<td>StringBuilder was introduced in Java 1.5</td>
+</tr>
+</tbody>
+</table>
+<h4 id="tips">Tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The difference between Uppercase and lower case character is 32</li>
+</ul>
+<h4 id="problems">Problems:<a class="headerlink" href="#problems" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Given a String, Toggle a case of every characters<ul>
+<li>"abCdeF" =&gt; "ABcDEf"<ul>
+<li>Hint: Use Bit manipulation to toggle the bits at 5th place.</li>
 </ul>
 </li>
 </ul>
-<pre><code class="language-java"> 1 &lt;&lt; 3 = 1 * 2^3
- 2 &lt;&lt; 3 = 2 * 2^3
- 2 &lt;&lt; 2 = 2 * 2^2       
- 3 &lt;&lt; 3 = 3 * 2^3
-</code></pre>
-<p><img alt="left_shift.png" src="../../assets/images/bit_manipulation/left_shift.png" /></p>
-<h4 id="right-shift-operator">Right Shift Operator<a class="headerlink" href="#right-shift-operator" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Formulae: <code>a &gt;&gt; N</code> = a / 2<sup>n</sup><ul>
-<li>a <code>-&gt;</code> Input Number</li>
-<li>N <code>-&gt;</code> How many times the number a should be shifted</li>
+</li>
+<li>Given a String Sort the string in Dictonary order<ul>
+<li>"dabaedb" =&gt; "aabbdde"</li>
+</ul>
+</li>
+<li>Given a String , Reverse the String</li>
+<li>Given a String , Reverse the substring from index x till y</li>
+<li>Given a String , Reverse the String word by word<ul>
+<li>"here is a picture" =&gt; "picture a is here"</li>
+</ul>
+</li>
+<li>Given a String find the Longest Palliandromic Substring<ul>
+<li>"abacab" # O/P -&gt; 5 {bacab}</li>
 </ul>
 </li>
 </ul>
-<pre><code class="language-java"> 1 &gt;&gt; 3 = 1 / 2^3
- 2 &gt;&gt; 3 = 2 / 2^3
- 2 &gt;&gt; 2 = 2 / 2^2       
- 3 &gt;&gt; 3 = 3 / 2^3
-</code></pre>
-<p><img alt="right_shift.png" src="../../assets/images/bit_manipulation/right_shift.png" /></p>
-<h4 id="tips-tricks">Tips &amp; Tricks<a class="headerlink" href="#tips-tricks" title="Permanent link">&para;</a></h4>
+<h4 id="solutions">Solutions<a class="headerlink" href="#solutions" title="Permanent link">&para;</a></h4>
 <ul>
-<li>N &amp; (N-1) Unsets the right most set bit.</li>
+<li><a href="https://github.com/santosh-1987/RubyScripts/tree/master/Scaler/strings">String Programs &amp; Code Snippets</a></li>
+<li><a href="https://youtube.com/playlist?list=PLqM7alHXFySE_Pxx_HsUSZGwiLpv9ziWA">Practice Problems</a></li>
 </ul>
-<pre><code class="language-ruby">  def check_bit_right_shift(num, bit_no)
-    return (num &gt;&gt; bit_no) &amp; 1 == 1 ? true : false
-  end
-
-  def check_bit_left_shift(num, bit_no)
-    return (num &amp; (1&lt;&lt;bit_no)) != 0 ? true : false
-  end
-
-  def set_bit(num, bit_no)
-    return num | (1 &lt;&lt; bit_no)
-  end
-
-  # 0^1 = 1
-  # 1^0 = 0
-  def toggle_bit(num, bit_no)
-    return num ^ (1 &lt;&lt; bit_no)
-  end
-</code></pre>
-<h4 id="problems-solutions">Problems &amp; Solutions:<a class="headerlink" href="#problems-solutions" title="Permanent link">&para;</a></h4>
-<p><a href="https://github.com/santosh-1987/RubyScripts/tree/master/Scaler/bit_manipualtion">Bit Manipulation Problem &amp; Solutions</a></p>
 
               
             </article>
@@ -774,41 +781,6 @@
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../bit_manipulation/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Logical Operator" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Logical Operator
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../../arrays/introduction/" class="md-footer__link md-footer__link--next" aria-label="Next: Introduction" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Introduction
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
