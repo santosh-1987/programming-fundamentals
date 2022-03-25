@@ -10,21 +10,21 @@
       
       
       
-        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/">
+        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/algorithms/kadanes_algorithm/">
       
-      <link rel="icon" href="assets/images/favicon.jpeg">
+      <link rel="icon" href="../../assets/images/favicon.jpeg">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
     
     
       
-        <title>Programming Fundamentals</title>
+        <title>Kadanes algorithm - Programming Fundamentals</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.2d9f7617.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2d9f7617.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
         
           
           
@@ -43,9 +43,9 @@
       
     
     
-      <link rel="stylesheet" href="custom.css">
+      <link rel="stylesheet" href="../../custom.css">
     
-    <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-programming-fundamentals" class="md-skip">
+        <a href="#problem-statement-maximum-subarray-sum" class="md-skip">
           Skip to content
         </a>
       
@@ -89,9 +89,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Programming Fundamentals" class="md-header__button md-logo" aria-label="Programming Fundamentals" data-md-component="logo">
+    <a href="../.." title="Programming Fundamentals" class="md-header__button md-logo" aria-label="Programming Fundamentals" data-md-component="logo">
       
-  <img src="assets/images/logo.jpeg" alt="logo">
+  <img src="../../assets/images/logo.jpeg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Kadanes algorithm
             
           </span>
         </div>
@@ -180,9 +180,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Programming Fundamentals" class="md-nav__button md-logo" aria-label="Programming Fundamentals" data-md-component="logo">
+    <a href="../.." title="Programming Fundamentals" class="md-nav__button md-logo" aria-label="Programming Fundamentals" data-md-component="logo">
       
-  <img src="assets/images/logo.jpeg" alt="logo">
+  <img src="../../assets/images/logo.jpeg" alt="logo">
 
     </a>
     Programming Fundamentals
@@ -196,124 +196,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Home
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         Home
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#welcome-to-programming-fundamentals" class="md-nav__link">
-    Welcome to Programming Fundamentals
-  </a>
-  
-    <nav class="md-nav" aria-label="Welcome to Programming Fundamentals">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#our-motto" class="md-nav__link">
-    Our Motto
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#programming-construct" class="md-nav__link">
-    Programming Construct
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#search-algorithms" class="md-nav__link">
-    Search Algorithms
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bit-manipulation" class="md-nav__link">
-    Bit Manipulation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#data-structures" class="md-nav__link">
-    Data Structures
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#algorithms" class="md-nav__link">
-    Algorithms
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#design-patterns" class="md-nav__link">
-    Design Patterns
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#how-we-accomplish-this" class="md-nav__link">
-    How we accomplish this?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#important-links" class="md-nav__link">
-    Important Links
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#know-us" class="md-nav__link">
-    Know us
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -352,7 +239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="programming-constructs/" class="md-nav__link">
+      <a href="../../programming-constructs/" class="md-nav__link">
         Construct Definition
       </a>
     </li>
@@ -366,7 +253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="programming-constructs/sequence/" class="md-nav__link">
+      <a href="../../programming-constructs/sequence/" class="md-nav__link">
         Sequence
       </a>
     </li>
@@ -380,7 +267,7 @@
   
   
     <li class="md-nav__item">
-      <a href="programming-constructs/selection/" class="md-nav__link">
+      <a href="../../programming-constructs/selection/" class="md-nav__link">
         Selection
       </a>
     </li>
@@ -394,7 +281,7 @@
   
   
     <li class="md-nav__item">
-      <a href="programming-constructs/repetition/" class="md-nav__link">
+      <a href="../../programming-constructs/repetition/" class="md-nav__link">
         Iteration
       </a>
     </li>
@@ -408,7 +295,7 @@
   
   
     <li class="md-nav__item">
-      <a href="programming-constructs/routine_invocation/" class="md-nav__link">
+      <a href="../../programming-constructs/routine_invocation/" class="md-nav__link">
         Routine Invocation
       </a>
     </li>
@@ -456,7 +343,7 @@
   
   
     <li class="md-nav__item">
-      <a href="search-algorithms/search/" class="md-nav__link">
+      <a href="../../search-algorithms/search/" class="md-nav__link">
         Search Concept
       </a>
     </li>
@@ -470,7 +357,7 @@
   
   
     <li class="md-nav__item">
-      <a href="search-algorithms/linear-search/" class="md-nav__link">
+      <a href="../../search-algorithms/linear-search/" class="md-nav__link">
         Linear Search
       </a>
     </li>
@@ -484,7 +371,7 @@
   
   
     <li class="md-nav__item">
-      <a href="search-algorithms/binary-search/" class="md-nav__link">
+      <a href="../../search-algorithms/binary-search/" class="md-nav__link">
         Binary Search
       </a>
     </li>
@@ -532,7 +419,7 @@
   
   
     <li class="md-nav__item">
-      <a href="loops/" class="md-nav__link">
+      <a href="../../loops/" class="md-nav__link">
         Loop
       </a>
     </li>
@@ -546,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="loops/recursion/" class="md-nav__link">
+      <a href="../../loops/recursion/" class="md-nav__link">
         Recursion
       </a>
     </li>
@@ -594,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bit-manipulation/bit_manipulation/" class="md-nav__link">
+      <a href="../../bit-manipulation/bit_manipulation/" class="md-nav__link">
         Logical Operator
       </a>
     </li>
@@ -608,7 +495,7 @@
   
   
     <li class="md-nav__item">
-      <a href="bit-manipulation/shift_operator/" class="md-nav__link">
+      <a href="../../bit-manipulation/shift_operator/" class="md-nav__link">
         Shift Operator
       </a>
     </li>
@@ -656,7 +543,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/introduction/" class="md-nav__link">
+      <a href="../../arrays/introduction/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -670,7 +557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/maths/" class="md-nav__link">
+      <a href="../../arrays/maths/" class="md-nav__link">
         Maths
       </a>
     </li>
@@ -684,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="arrays/sorting/" class="md-nav__link">
+      <a href="../../arrays/sorting/" class="md-nav__link">
         Sorting Introduction
       </a>
     </li>
@@ -732,7 +619,7 @@
   
   
     <li class="md-nav__item">
-      <a href="strings/introduction/" class="md-nav__link">
+      <a href="../../strings/introduction/" class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -771,79 +658,23 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#welcome-to-programming-fundamentals" class="md-nav__link">
-    Welcome to Programming Fundamentals
+  <a href="#problem-statement-maximum-subarray-sum" class="md-nav__link">
+    Problem Statement - Maximum Subarray Sum
   </a>
   
-    <nav class="md-nav" aria-label="Welcome to Programming Fundamentals">
+    <nav class="md-nav" aria-label="Problem Statement - Maximum Subarray Sum">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#our-motto" class="md-nav__link">
-    Our Motto
+  <a href="#example" class="md-nav__link">
+    Example:
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#programming-construct" class="md-nav__link">
-    Programming Construct
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#search-algorithms" class="md-nav__link">
-    Search Algorithms
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#bit-manipulation" class="md-nav__link">
-    Bit Manipulation
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#data-structures" class="md-nav__link">
-    Data Structures
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#algorithms" class="md-nav__link">
-    Algorithms
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#design-patterns" class="md-nav__link">
-    Design Patterns
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#how-we-accomplish-this" class="md-nav__link">
-    How we accomplish this?
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#important-links" class="md-nav__link">
-    Important Links
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#know-us" class="md-nav__link">
-    Know us
+  <a href="#kadanes-algorithm-is-an-iterative-dynamic-programming-algorithm" class="md-nav__link">
+    Kadane’s Algorithm is an iterative dynamic programming algorithm.
   </a>
   
 </li>
@@ -867,73 +698,38 @@
                 
 
 
-  <h1>Home</h1>
+  <h1>Kadanes algorithm</h1>
 
-<h3 id="welcome-to-programming-fundamentals">Welcome to Programming Fundamentals<a class="headerlink" href="#welcome-to-programming-fundamentals" title="Permanent link">&para;</a></h3>
-<p><img alt="image" src="assets/images/programmer.gif" /></p>
-<p>We are techies with a passion for technology and solving problems.</p>
-<p><em>We want to help software engineers</em></p>
+<h3 id="problem-statement-maximum-subarray-sum">Problem Statement - Maximum Subarray Sum<a class="headerlink" href="#problem-statement-maximum-subarray-sum" title="Permanent link">&para;</a></h3>
+<p>Subarrays are arrays inside another array which only contains contiguous elements.</p>
+<p>Given an array of integers, the task is to find the maximum subarray sum possible of all the non-empty subarrays.</p>
+<p><img alt="kadanes_algo.png" src="../../assets/kadanes_algo/sub_array/kadanes_algo.png" /></p>
+<h5 id="example">Example:<a class="headerlink" href="#example" title="Permanent link">&para;</a></h5>
+<pre><code class="language-java">Input: [-3, -4, 5, -1, 2, -4, 6, -1]
+Output: 8
+Explanation: Subarray [5, -1, 2, -4, 6] is the max sum contiguous subarray with sum 8.
+
+Input: [-2, 3, -1, 2]
+Output: 4
+Explanation: Subarray [3, -1, 2] is the max sum contiguous subarray with sum 4.
+
+</code></pre>
+<p>We would be solving the problem by following approaches –</p>
 <ul>
-<li>Engage in constructive discussions</li>
-<li>Share Tips, Tricks</li>
-<li>✨Learn Programming Fundamentals✨</li>
+<li>Simple approach</li>
+<li>Efficient Approach: Kadane’s Algorithm</li>
 </ul>
-<h5 id="our-motto">Our Motto<a class="headerlink" href="#our-motto" title="Permanent link">&para;</a></h5>
-<p><strong><em>Should not give up and we should not allow the problem to defeat us.</em></strong></p>
-<p><strong><em>Try yourself before reaching out for help.</em></strong></p>
-<h4 id="programming-construct">Programming Construct<a class="headerlink" href="#programming-construct" title="Permanent link">&para;</a></h4>
+<h4 id="kadanes-algorithm-is-an-iterative-dynamic-programming-algorithm">Kadane’s Algorithm is an iterative dynamic programming algorithm.<a class="headerlink" href="#kadanes-algorithm-is-an-iterative-dynamic-programming-algorithm" title="Permanent link">&para;</a></h4>
+<p>It calculates the maximum sum subarray ending at a particular position by using the maximum sum subarray ending at the previous position. Follow the below steps to solve the problem.</p>
 <ul>
-<li>Concepts of <a href="programming-constructs/">Programming Construct</a>.</li>
+<li>Define two-variable currSum which stores maximum sum ending here and maxSum which stores maximum sum so far.</li>
+<li>Initialize currSum with 0 and maxSum with INT_MIN.</li>
+<li>Now, iterate over the array and add the value of the current element to currSum and check</li>
+<li>If currSum is greater than maxSum, update maxSum equals to currSum.</li>
+<li>If currSum is less than zero, make currSum equal to zero.</li>
+<li>Finally, print the value of maxSum.</li>
 </ul>
-<h4 id="search-algorithms">Search Algorithms<a class="headerlink" href="#search-algorithms" title="Permanent link">&para;</a></h4>
-<ul>
-<li><a href="search-algorithms/linear-search/">Linear search</a></li>
-<li><a href="search-algorithms/binary-search/">Binary Search</a></li>
-</ul>
-<h4 id="bit-manipulation">Bit Manipulation<a class="headerlink" href="#bit-manipulation" title="Permanent link">&para;</a></h4>
-<ul>
-<li><a href="bit-manipulation/bit_manipulation/">Logical Operator Manipulation</a></li>
-<li><a href="bit-manipulation/shift_operator/">Shift Operators</a></li>
-</ul>
-<h4 id="data-structures">Data Structures<a class="headerlink" href="#data-structures" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Arrays<ul>
-<li><a href="arrays/introduction/">Introduction to Arrays</a></li>
-<li><a href="arrays/maths/">Maths</a></li>
-<li>Prefix Techniques</li>
-<li>Carry Forward</li>
-<li>Sub Arrays</li>
-<li>2D Matrices</li>
-<li>Interview Problems</li>
-<li>Arrays Advanced Problems</li>
-</ul>
-</li>
-<li>Strings</li>
-<li><a href="strings/introduction/">Introduction</a></li>
-</ul>
-<h4 id="algorithms">Algorithms<a class="headerlink" href="#algorithms" title="Permanent link">&para;</a></h4>
-<ul>
-<li><a href="algorithms/manachers_algorithm/">Manachers Algorithm</a></li>
-<li><a href="algorithms/kadanes_algorithm/">Kadanes Algorithm</a></li>
-</ul>
-<h4 id="design-patterns">Design Patterns<a class="headerlink" href="#design-patterns" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Coming Soon</li>
-</ul>
-<h4 id="how-we-accomplish-this">How we accomplish this?<a class="headerlink" href="#how-we-accomplish-this" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Learn and understand concepts</li>
-<li>Code and Review</li>
-<li><a href="https://github.com/santosh-1987/ScalingChallenges">Project's related to concepts</a></li>
-</ul>
-<h4 id="important-links">Important Links<a class="headerlink" href="#important-links" title="Permanent link">&para;</a></h4>
-<ul>
-<li><a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898">SOLID Principles</a></li>
-<li><a href="http://masnun.rocks/2017/04/15/interfaces-in-python-protocols-and-abcs/">Interfaces in Python</a></li>
-<li><a href="https://www.programiz.com/cpp-programming/pure-virtual-funtion">Interfaces and abstract classes in c++</a></li>
-</ul>
-<h4 id="know-us">Know us<a class="headerlink" href="#know-us" title="Permanent link">&para;</a></h4>
-<p><a href="http://susant.in/">About Me</a></p>
+<p><img alt="kadanse_algo_steps.png" src="../../assets/kadanes_algo/sub_array/kadanse_algo_steps.png" /></p>
 
               
             </article>
@@ -943,26 +739,6 @@
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-      
-        
-        <a href="programming-constructs/" class="md-footer__link md-footer__link--next" aria-label="Next: Construct Definition" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Construct Definition
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -984,10 +760,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["search.suggest", "search.highlight", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.bd0b6b67.min.js", "version": {"provider": "mike"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.highlight", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.bd0b6b67.min.js", "version": {"provider": "mike"}}</script>
     
     
-      <script src="assets/javascripts/bundle.467223ff.min.js"></script>
+      <script src="../../assets/javascripts/bundle.467223ff.min.js"></script>
       
     
   </body>
