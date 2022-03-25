@@ -32,6 +32,9 @@ nav:
       - Sorting Introduction: arrays/sorting.md
   - Strings:
       - Introduction: strings/introduction.md
+  - Algorithms:
+      - Manachers Algorithm: algorithms/manachers_algorithm.md
+      - Kadanes Algorithm: algorithms/kadanes_algorithm.md
 # Configuration
 theme:
   name: material

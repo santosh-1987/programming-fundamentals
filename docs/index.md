@@ -42,11 +42,13 @@ We are techies with a passion for technology and solving problems.
     - Interview Problems
     - Arrays Advanced Problems
 - Strings
-  - [Introduction](strings/introduction.md)
+    - [Introduction](strings/introduction.md)
 
 ### Algorithms
-  - [Manachers Algorithm](algorithms/manachers_algorithm.md)
-  - [Kadanes Algorithm](algorithms/kadanes_algorithm.md)
+
+- [Manachers Algorithm](algorithms/manachers_algorithm.md)
+- [Kadanes Algorithm](algorithms/kadanes_algorithm.md)
+
 ### Design Patterns
 
 - Coming Soon
@@ -58,6 +60,7 @@ We are techies with a passion for technology and solving problems.
 - [Project's related to concepts](https://github.com/santosh-1987/ScalingChallenges)
 
 ### Important Links
+
 - [SOLID Principles](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 - [Interfaces in Python](http://masnun.rocks/2017/04/15/interfaces-in-python-protocols-and-abcs/)
 - [Interfaces and abstract classes in c++](https://www.programiz.com/cpp-programming/pure-virtual-funtion)
