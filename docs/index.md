@@ -43,6 +43,10 @@ We are techies with a passion for technology and solving problems.
     - Arrays Advanced Problems
 - Strings
   - [Introduction](strings/introduction.md)
+
+### Algorithms
+  - [Manachers Algorithm](algorithms/manachers_algorithm.md)
+  - [Kadanes Algorithm](algorithms/kadanes_algorithm.md)
 ### Design Patterns
 
 - Coming Soon
