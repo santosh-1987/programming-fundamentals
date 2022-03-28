@@ -31,12 +31,12 @@ original key.
 
 Map in different Languages
 
-| No. | Language | Map Type                             |
-|----|----------|--------------------------------------|
-| 1  | Java     | HashMap<Key Datatype, Value DataType> |
-| 2  | Python   | Dictionary|
-| 3  | C++      | UnOrdered List |
-|4| Ruby| Hash|
+| No. | Language | Map Type                              |
+|-----|----------|---------------------------------------|
+| 1   | Java     | HashMap<Key Datatype, Value DataType> |
+| 2   | Python   | Dictionary                            |
+| 3   | C++      | Unordered List                        |
+| 4   | Ruby     | Hash                                  |
 
 ## HashMap Operations
 
