@@ -31,18 +31,34 @@ original key.
 
 Map in different Languages
 
-| No. | Language | Map Type                              |
-|-----|----------|---------------------------------------|
-| 1   | Java     | HashMap<Key Datatype, Value DataType> |
-| 2   | Python   | Dictionary                            |
-| 3   | C++      | Unordered List                        |
-| 4   | Ruby     | Hash                                  |
+| No. | Language | Map Type                              | Hash Set      |
+|-----|----------|---------------------------------------|---------------|
+| 1   | Java     | HashMap<Key Datatype, Value DataType> | HashSet       |
+| 2   | Python   | Dictionary                            | Set           |
+| 3   | C++      | Unordered List                        | Unordered set |
+| 4   | Ruby     | Hash                                  | Set           |
 
 ## HashMap Operations
 
 ![operations.png](../assets/images/hashing/operations.png)
 
 All the above Operation is done in Avg Case TC- O(1).
+
+## HashSet
+
+- It Stores only the Uniq Keys
+- In Ruby we call this as [Set](https://www.rubyguides.com/2018/08/ruby-set-class/)
+  ![hash_set.png](../assets/images/hashing/hash_set.png)
+
+## Superset & Subset
+
+- A superset is a set that contains all the elements of another set.
+- You can check if one set is a superset of another
+  - Set.new(10..40) >= Set.new(20..30)
+    - The range 10..40 contains 20..30 within
+
+- A subset is a set that is made from parts of another set
+  - Set.new(25..27) <= Set.new(20..30)
 
 ## References
 
