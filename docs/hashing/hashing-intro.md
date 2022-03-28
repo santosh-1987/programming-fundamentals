@@ -42,7 +42,7 @@ Map in different Languages
 
 ![operations.png](../assets/images/hashing/operations.png)
 
-All the above Operation is done in Avg Case TC- O(1)
+All the above Operation is done in Avg Case TC- O(1).
 
 ## References
 
