@@ -62,4 +62,5 @@ All the above Operation is done in Avg Case TC- O(1).
 
 ## References
 
-- https://www.interviewbit.com/tutorial/introduction-to-hashing/
+- [Hashing Intro - Interview Bit](https://www.interviewbit.com/tutorial/introduction-to-hashing/)
+- [Subsets and Supersets | Set Theory](https://www.youtube.com/watch?v=_ni8NBsvlvU)
