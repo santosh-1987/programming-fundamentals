@@ -43,6 +43,8 @@ We are techies with a passion for technology and solving problems.
     - Arrays Advanced Problems
 - Strings
     - [Introduction](strings/introduction.md)
+- Hashing
+  - [Introduction](hashing/hashing-intro.md)
 
 ### Algorithms
 
