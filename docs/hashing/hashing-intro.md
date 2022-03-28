@@ -52,15 +52,19 @@ All the above Operation is done in Avg Case TC- O(1).
 
 ## Superset & Subset
 
+- A subset is a set that is made from parts of another set
+    - Set.new(25..27) <= Set.new(20..30)
+    - Any Set A is said to be a subset of Set B if every element of A is also an element of B. (A ⊆ B)
+
+
 - A superset is a set that contains all the elements of another set.
 - You can check if one set is a superset of another
-  - Set.new(10..40) >= Set.new(20..30)
-    - The range 10..40 contains 20..30 within
-
-- A subset is a set that is made from parts of another set
-  - Set.new(25..27) <= Set.new(20..30)
+    - Set.new(10..40) >= Set.new(20..30)
+        - The range 10..40 contains 20..30 within
+    - If A is Subset of B, then B is a SuperSet of A.
 
 ## References
 
 - [Hashing Intro - Interview Bit](https://www.interviewbit.com/tutorial/introduction-to-hashing/)
 - [Subsets and Supersets | Set Theory](https://www.youtube.com/watch?v=_ni8NBsvlvU)
+- [Basic set ops](https://www.khanacademy.org/math/statistics-probability/probability-library/basic-set-ops/v/subset-strict-subset-and-superset)
