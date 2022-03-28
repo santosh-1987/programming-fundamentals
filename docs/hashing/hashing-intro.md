@@ -38,6 +38,12 @@ Map in different Languages
 | 3  | C++      | UnOrdered List |
 |4| Ruby| Hash|
 
+## HashMap Operations
+
+![operations.png](../assets/images/hashing/operations.png)
+
+All the above Operation is done in Avg Case TC- O(1)
+
 ## References
 
 - https://www.interviewbit.com/tutorial/introduction-to-hashing/
