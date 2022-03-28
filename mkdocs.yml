@@ -32,6 +32,8 @@ nav:
       - Sorting Introduction: arrays/sorting.md
   - Strings:
       - Introduction: strings/introduction.md
+  - Hashing:
+      - Introduction: hashing/hashing-intro.md
   - Algorithms:
       - Manachers Algorithm: algorithms/manachers_algorithm.md
       - Kadanes Algorithm: algorithms/kadanes_algorithm.md
