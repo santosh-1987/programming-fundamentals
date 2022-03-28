@@ -9,12 +9,12 @@ Hashing is the process of converting a given key into another smaller value for 
 
 Hashing is a Concept , `Hash Map` is one of the Implementation of Hashing.
 
-![hashing.png](../assets/hashing/hashing.png)
+![hashing.png](../assets/images/hashing/hashing.png)
 
 A good hash function uses a one-way hashing algorithm, or in other words, the hash cannot be converted back into the
 original key.
 
-![hashing_irreversible.png](../assets/hashing/hashing_irreversible.png)
+![hashing_irreversible.png](../assets/images/hashing/hashing_irreversible.png)
 
 ## HashMap
 
