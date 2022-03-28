@@ -44,7 +44,7 @@ We are techies with a passion for technology and solving problems.
 - Strings
     - [Introduction](strings/introduction.md)
 - Hashing
-  - [Introduction](hashing/hashing-intro.md)
+    - [Introduction](hashing/hashing-intro.md)
 
 ### Algorithms
 
