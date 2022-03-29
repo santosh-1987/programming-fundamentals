@@ -61,7 +61,7 @@ All the above Operation is done in Avg Case TC- O(1).
 - You can check if one set is a superset of another
     - Set.new(10..40) >= Set.new(20..30)
         - The range 10..40 contains 20..30 within
-    - If A is Subset of B, then B is a SuperSet of A.
+    - If A is Subset of B, then B is a SuperSet of A
 
 ## References
 
