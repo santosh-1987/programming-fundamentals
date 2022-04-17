@@ -30,12 +30,15 @@ We are techies with a passion for technology and solving problems.
 - [Logical Operator Manipulation](bit-manipulation/bit_manipulation.md)
 - [Shift Operators](bit-manipulation/shift_operator.md)
 
-### Data Structures
+### Problem Solving / Time Complexity / Space Complexity
 
 - Time Complexity
     - [T.C Introduction](TimeComplexity/tc_1.md)
 - Problem Solving
     - [P.S Introduction](problem-solving/introduction.md)
+
+### Data Structures
+
 - Arrays
     - [Introduction to Arrays](arrays/introduction.md)
     - [Maths](arrays/maths.md)
