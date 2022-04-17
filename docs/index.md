@@ -33,9 +33,9 @@ We are techies with a passion for technology and solving problems.
 ### Data Structures
 
 - Time Complexity
-    - [Introduction](TimeComplexity/tc_1.md)
+    - [T.C Introduction](TimeComplexity/tc_1.md)
 - Problem Solving
-    - [Introduction](problem-solving/introduction.md)
+    - [P.S Introduction](problem-solving/introduction.md)
 - Arrays
     - [Introduction to Arrays](arrays/introduction.md)
     - [Maths](arrays/maths.md)
