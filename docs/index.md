@@ -33,11 +33,12 @@ We are techies with a passion for technology and solving problems.
 ### Data Structures
 
 - Time Complexity
-  - [Introduction](TimeComplexity/tc_1.md)
+    - [Introduction](TimeComplexity/tc_1.md)
+- Problem Solving
+    - [Introduction](problem-solving/introduction.md)
 - Arrays
     - [Introduction to Arrays](arrays/introduction.md)
     - [Maths](arrays/maths.md)
-    - [Problem Solving](problem-solving/introduction.md)
     - Prefix Techniques
     - Carry Forward
     - Sub Arrays
