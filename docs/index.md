@@ -35,6 +35,7 @@ We are techies with a passion for technology and solving problems.
 - Arrays
     - [Introduction to Arrays](arrays/introduction.md)
     - [Maths](arrays/maths.md)
+    - [Problem Solving](problem-solving/introduction.md)
     - Prefix Techniques
     - Carry Forward
     - Sub Arrays
