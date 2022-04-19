@@ -46,27 +46,27 @@ An arithmetic progression (AP) is a sequence where the differences between every
 ## Problems
 
 - Problem 1
-    - ![problem_1](../assets/time_complexity/problem_1.png)
+  ![problem_1](../assets/time_complexity/problem_1.png)
 - Problem 2
-    - ![problem_2](../assets/time_complexity/problem_2.png)
+  ![problem_2](../assets/time_complexity/problem_2.png)
 - Problem 3
-    - ![problem_3](../assets/time_complexity/problem_3.png)
+  ![problem_3](../assets/time_complexity/problem_3.png)
 - Problem 4
-    - ![problem_4](../assets/time_complexity/problem_4.png)
+  ![problem_4](../assets/time_complexity/problem_4.png)
 - Problem 5
-    - ![problem_5](../assets/time_complexity/problem_5.png)
+  ![problem_5](../assets/time_complexity/problem_5.png)
 - Problem 6
-    - ![problem_log_6](../assets/time_complexity/problem_log_6.png)
+  ![problem_log_6](../assets/time_complexity/problem_log_6.png)
 - Problem 7
-    - ![problem_7](../assets/time_complexity/problem_7.png)
+  ![problem_7](../assets/time_complexity/problem_7.png)
 - Problem 8
-    - ![problem_8](../assets/time_complexity/problem_8.png)
+  ![problem_8](../assets/time_complexity/problem_8.png)
 - Problem 9
-    - ![problem_9](../assets/time_complexity/problem_9.png)
+  ![problem_9](../assets/time_complexity/problem_9.png)
 - **Problem 10**
-    - ![problem_10](../assets/time_complexity/problem_10.png)
+  ![problem_10](../assets/time_complexity/problem_10.png)
 - **Problem 11**
-    - ![problem_11](../assets/time_complexity/problem_11.png)
+  ![problem_11](../assets/time_complexity/problem_11.png)
 
 ## How to calculate Big O
 
