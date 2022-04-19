@@ -10,14 +10,14 @@
       
       
       
-        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/TimeComplexity/tc_1/">
+        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/TimeComplexity/tc_2/">
       
       <link rel="icon" href="../../assets/images/favicon.jpeg">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
     
     
       
-        <title>Tc 1 - Programming Fundamentals</title>
+        <title>Tc 2 - Programming Fundamentals</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#time-complexity" class="md-skip">
+        <a href="#time-space-complexity-with-bigo-notation-asymptotic-analysis" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Tc 1
+              Tc 2
             
           </span>
         </div>
@@ -768,63 +768,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#time-complexity" class="md-nav__link">
-    Time Complexity
-  </a>
-  
-    <nav class="md-nav" aria-label="Time Complexity">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#prerequisite" class="md-nav__link">
-    Prerequisite
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#logarithms" class="md-nav__link">
-    Logarithms
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#arithmetic-progressionap" class="md-nav__link">
-    Arithmetic Progression(AP)
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#geometric-progressionap" class="md-nav__link">
-    Geometric Progression(AP)
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#problems" class="md-nav__link">
-    Problems
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-calculate-big-o" class="md-nav__link">
-    How to calculate Big O
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tips-tricks" class="md-nav__link">
-    Tips &amp; Tricks
+  <a href="#time-space-complexity-with-bigo-notation-asymptotic-analysis" class="md-nav__link">
+    Time &amp; Space Complexity with Big(O) Notation - Asymptotic Analysis
   </a>
   
 </li>
@@ -843,110 +788,9 @@
                 
 
 
-  <h1>Tc 1</h1>
+  <h1>Tc 2</h1>
 
-<h3 id="time-complexity">Time Complexity<a class="headerlink" href="#time-complexity" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Imagine a classroom of 100 students in which you gave your pen to one person. Now, you want that pen. Here are some
-  ways to find the pen and what the O order is.<ul>
-<li>O(n2): You go and ask the first person of the class, if he has the pen. Also, you ask this person about other 99
-  people in the classroom if they have that pen and so on, This is what we call O(n2).</li>
-<li>O(n): Going and asking each student individually is O(N).</li>
-<li>O(log n): Now I divide the class into two groups, then ask: “Is it on the left side, or the right side of the
-  classroom?” Then I take that group and divide it into two and ask again, and so on. Repeat the process till you
-  are left with one student who has your pen. This is what you mean by O(log n).</li>
-<li>I might need to do the O(n2) search if only one student knows on which student the pen is hidden. I’d use the O(n)
-  if one student had the pen and only they knew it. I’d use the O(log n) search if all the students knew, but would
-  only tell me if I guessed the right side.</li>
-</ul>
-</li>
-</ul>
-<h5 id="prerequisite">Prerequisite<a class="headerlink" href="#prerequisite" title="Permanent link">&para;</a></h5>
-<ul>
-<li>Understanding of Logarithms</li>
-</ul>
-<h4 id="logarithms">Logarithms<a class="headerlink" href="#logarithms" title="Permanent link">&para;</a></h4>
-<p>Logarithm is the way to represent exponential expression as shown in the example .</p>
-<ul>
-<li>a<sup>y</sup> = x is a exponential expression, it can also be written as log<sub>a</sub> x = y</li>
-<li>2<sup>5</sup> = 32, can be written as log<sub>2</sub>32 = 5</li>
-<li>log<sub>x</sub> N , It means how many time N should be divided by x to make it 1.</li>
-</ul>
-<h4 id="arithmetic-progressionap">Arithmetic Progression(AP)<a class="headerlink" href="#arithmetic-progressionap" title="Permanent link">&para;</a></h4>
-<p>An arithmetic progression (AP) is a sequence where the differences between every two consecutive terms are the same.
-<img alt="arithmetic_progression_example1" src="../../assets/time_complexity/arithmetic_progression_example1.png" />
-<img alt="ap_brief" src="../../assets/time_complexity/ap_brief.png" /></p>
-<p><strong>nth term of an AP:</strong>:</p>
-<ul>
-<li>a<sub>n</sub> = a + (n - 1)d</li>
-</ul>
-<p><strong>Sum of N term in AP</strong>
-<img alt="ap_formulae" src="../../assets/time_complexity/ap_formulae.png" /></p>
-<h4 id="geometric-progressionap">Geometric Progression(AP)<a class="headerlink" href="#geometric-progressionap" title="Permanent link">&para;</a></h4>
-<p><img alt="gp_example" src="../../assets/time_complexity/gp_example.png" />
-<img alt="gp_generic" src="../../assets/time_complexity/gp_generic.png" />
-<img alt="gp_detail" src="../../assets/time_complexity/gp_detail.png" /></p>
-<h3 id="problems">Problems<a class="headerlink" href="#problems" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Problem 1<ul>
-<li><img alt="problem_1" src="../../assets/time_complexity/problem_1.png" /></li>
-</ul>
-</li>
-<li>Problem 2<ul>
-<li><img alt="problem_2" src="../../assets/time_complexity/problem_2.png" /></li>
-</ul>
-</li>
-<li>Problem 3<ul>
-<li><img alt="problem_3" src="../../assets/time_complexity/problem_3.png" /></li>
-</ul>
-</li>
-<li>Problem 4<ul>
-<li><img alt="problem_4" src="../../assets/time_complexity/problem_4.png" /></li>
-</ul>
-</li>
-<li>Problem 5<ul>
-<li><img alt="problem_5" src="../../assets/time_complexity/problem_5.png" /></li>
-</ul>
-</li>
-<li>Problem 6<ul>
-<li><img alt="problem_log_6" src="../../assets/time_complexity/problem_log_6.png" /></li>
-</ul>
-</li>
-<li>Problem 7<ul>
-<li><img alt="problem_7" src="../../assets/time_complexity/problem_7.png" /></li>
-</ul>
-</li>
-<li>Problem 8<ul>
-<li><img alt="problem_8" src="../../assets/time_complexity/problem_8.png" /></li>
-</ul>
-</li>
-<li>Problem 9<ul>
-<li><img alt="problem_9" src="../../assets/time_complexity/problem_9.png" /></li>
-</ul>
-</li>
-<li><strong>Problem 10</strong><ul>
-<li><img alt="problem_10" src="../../assets/time_complexity/problem_10.png" /></li>
-</ul>
-</li>
-<li><strong>Problem 11</strong><ul>
-<li><img alt="problem_11" src="../../assets/time_complexity/problem_11.png" /></li>
-</ul>
-</li>
-</ul>
-<h3 id="how-to-calculate-big-o">How to calculate Big O<a class="headerlink" href="#how-to-calculate-big-o" title="Permanent link">&para;</a></h3>
-<p><img alt="big_o_notation" src="../../assets/time_complexity/big_o_notation.png" />
-<img alt="big_o_examples" src="../../assets/time_complexity/big_o_examples.png" /></p>
-<h3 id="tips-tricks">Tips &amp; Tricks<a class="headerlink" href="#tips-tricks" title="Permanent link">&para;</a></h3>
-<ul>
-<li>[a,b] -&gt; Including a &amp; b. Number of Terms - <code>b-a+1</code></li>
-<li>(a,b) -&gt; Excluding a &amp; b.</li>
-<li>For Big O Notation<ul>
-<li>Ignore all lower order terms</li>
-<li>Ignore all constant coefficient terms.</li>
-<li>Draw Table if you are confused with finding Big T.C</li>
-</ul>
-</li>
-</ul>
+<h3 id="time-space-complexity-with-bigo-notation-asymptotic-analysis">Time &amp; Space Complexity with Big(O) Notation - Asymptotic Analysis<a class="headerlink" href="#time-space-complexity-with-bigo-notation-asymptotic-analysis" title="Permanent link">&para;</a></h3>
 
               
             </article>
