@@ -21,6 +21,64 @@ ps[1]=ps[0]+a[1]
 ps[2]=ps[1]+a[2]
 ```
 
+![prefix_sum_intro](../assets/images/arrays/prefix_sum_intro.png)
+
+### Build Prefix Sum
+
+![build_prefix_sum](../assets/images/arrays/build_prefix_sum.png)
+
+### Problems
+
+- Given an Array return true if there is an Equillibrium Index in the Array
+    - Equillibrium Index is the index for which sum of elements on left side = sum of elements on right side
+    - A: [0, 1, 2, 3, 4, **8**, 10]
+        - 8 is the Equillibrium Index as Sum<sub>Left</sub>(10) = Sum<sub>Right</sub>(10)
+    - Brute Force:
+      ![bf_ei](../assets/images/arrays/bf_ei.png)
+    - Optimized Approach using Prefix Sum
+      ![optimized_ei](../assets/images/arrays/optimized_ei.png)
+
+  ```java
+  // Java Solution
+  public class Solution {
+      public int solve(int[] A) {
+          long sum1 = 0;
+          for(int i = 0; i < A.length ; i++) sum1 += A[i];
+          long sum2 = 0;
+          int ans = Integer.MAX_VALUE;
+          for(int i = 0 ; i < A.length ; i++){
+              sum1 -= A[i];
+              if(sum1 == sum2){
+                  ans = i;
+                  break;
+              }
+              sum2 += A[i];
+          }
+          if(ans == Integer.MAX_VALUE)ans =- 1;
+          return ans;
+      }
+  }
+  ```
+
+  ```python
+  # Python
+  class Solution:
+    # @param A : list of integers
+    # @return an integer
+    def solve(self, A):
+        n = len(A)
+        summ = 0
+        for i in A:
+            summ += i
+        l = 0
+        for i in range(0, n):
+            summ -= A[i]
+            if l == summ :
+                return i
+            l += A[i]
+        return -1;
+  ```
+
 ### Applications
 
 - **Equilibrium index of an array:** The equilibrium index of an array is an index such that the sum of elements at
