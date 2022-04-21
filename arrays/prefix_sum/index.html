@@ -838,6 +838,20 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#build-prefix-sum" class="md-nav__link">
+    Build Prefix Sum
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problems" class="md-nav__link">
+    Problems
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#applications" class="md-nav__link">
     Applications
   </a>
@@ -903,6 +917,61 @@ ps[2]=a[0]+a[1]+a[2]
 ps[1]=ps[0]+a[1]
 ps[2]=ps[1]+a[2]
 </code></pre>
+<p><img alt="prefix_sum_intro" src="../../assets/images/arrays/prefix_sum_intro.png" /></p>
+<h4 id="build-prefix-sum">Build Prefix Sum<a class="headerlink" href="#build-prefix-sum" title="Permanent link">&para;</a></h4>
+<p><img alt="build_prefix_sum" src="../../assets/images/arrays/build_prefix_sum.png" /></p>
+<h4 id="problems">Problems<a class="headerlink" href="#problems" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Given an Array return true if there is an Equillibrium Index in the Array<ul>
+<li>Equillibrium Index is the index for which sum of elements on left side = sum of elements on right side</li>
+<li>A: [0, 1, 2, 3, 4, <strong>8</strong>, 10]<ul>
+<li>8 is the Equillibrium Index as Sum<sub>Left</sub>(10) = Sum<sub>Right</sub>(10)</li>
+</ul>
+</li>
+<li>Brute Force:
+  <img alt="bf_ei" src="../../assets/images/arrays/bf_ei.png" /></li>
+<li>Optimized Approach using Prefix Sum
+  <img alt="optimized_ei" src="../../assets/images/arrays/optimized_ei.png" /></li>
+</ul>
+</li>
+</ul>
+<p><code>java
+  // Java Solution
+  public class Solution {
+      public int solve(int[] A) {
+          long sum1 = 0;
+          for(int i = 0; i &lt; A.length ; i++) sum1 += A[i];
+          long sum2 = 0;
+          int ans = Integer.MAX_VALUE;
+          for(int i = 0 ; i &lt; A.length ; i++){
+              sum1 -= A[i];
+              if(sum1 == sum2){
+                  ans = i;
+                  break;
+              }
+              sum2 += A[i];
+          }
+          if(ans == Integer.MAX_VALUE)ans =- 1;
+          return ans;
+      }
+  }</code></p>
+<p><code>python
+  # Python
+  class Solution:
+    # @param A : list of integers
+    # @return an integer
+    def solve(self, A):
+        n = len(A)
+        summ = 0
+        for i in A:
+            summ += i
+        l = 0
+        for i in range(0, n):
+            summ -= A[i]
+            if l == summ :
+                return i
+            l += A[i]
+        return -1;</code></p>
 <h4 id="applications">Applications<a class="headerlink" href="#applications" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>Equilibrium index of an array:</strong> The equilibrium index of an array is an index such that the sum of elements at
