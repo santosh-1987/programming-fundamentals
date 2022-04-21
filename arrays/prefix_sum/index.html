@@ -10,14 +10,14 @@
       
       
       
-        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/arrays/introduction/">
+        <link rel="canonical" href="https://santosh-1987.github.io/programming-fundamentals/arrays/prefix_sum/">
       
       <link rel="icon" href="../../assets/images/favicon.jpeg">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.2.5">
     
     
       
-        <title>Introduction - Programming Fundamentals</title>
+        <title>Prefix sum - Programming Fundamentals</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#arrays" class="md-skip">
+        <a href="#arrays-prefix-sum" class="md-skip">
           Skip to content
         </a>
       
@@ -107,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction
+              Prefix sum
             
           </span>
         </div>
@@ -577,14 +577,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       
       
@@ -605,96 +603,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Introduction
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
         Introduction
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#arrays" class="md-nav__link">
-    Arrays
-  </a>
-  
-    <nav class="md-nav" aria-label="Arrays">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#advantages-of-using-arrays" class="md-nav__link">
-    Advantages of using arrays:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#disadvantages-of-using-arrays" class="md-nav__link">
-    Disadvantages of using arrays:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#applications-on-array" class="md-nav__link">
-    Applications on Array
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#looping-through-array" class="md-nav__link">
-    Looping through Array
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dynamic-arrays" class="md-nav__link">
-    Dynamic Arrays
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#problems-solutions" class="md-nav__link">
-    Problems &amp; Solutions
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -917,51 +830,16 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#arrays" class="md-nav__link">
-    Arrays
+  <a href="#arrays-prefix-sum" class="md-nav__link">
+    Arrays - Prefix Sum
   </a>
   
-    <nav class="md-nav" aria-label="Arrays">
+    <nav class="md-nav" aria-label="Arrays - Prefix Sum">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#advantages-of-using-arrays" class="md-nav__link">
-    Advantages of using arrays:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#disadvantages-of-using-arrays" class="md-nav__link">
-    Disadvantages of using arrays:
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#applications-on-array" class="md-nav__link">
-    Applications on Array
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#looping-through-array" class="md-nav__link">
-    Looping through Array
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dynamic-arrays" class="md-nav__link">
-    Dynamic Arrays
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#problems-solutions" class="md-nav__link">
-    Problems &amp; Solutions
+  <a href="#applications" class="md-nav__link">
+    Applications
   </a>
   
 </li>
@@ -985,52 +863,106 @@
                 
 
 
-  <h1>Introduction</h1>
+  <h1>Prefix sum</h1>
 
-<h3 id="arrays">Arrays<a class="headerlink" href="#arrays" title="Permanent link">&para;</a></h3>
-<p>An array is a collection of items stored at contiguous memory locations.</p>
-<blockquote>
-<p>The idea is to store multiple items of the same type together.
-This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array).</p>
-</blockquote>
-<p><img alt="indexing.png" src="../../assets/images/arrays/indexing.png" />
-<img alt="indexing_c.png" src="../../assets/images/arrays/indexing_c.png" title="Indexing in C" /></p>
-<h4 id="advantages-of-using-arrays">Advantages of using arrays:<a class="headerlink" href="#advantages-of-using-arrays" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Arrays allow random access to elements. This makes accessing elements by position faster.</li>
-<li>Arrays have better cache locality that makes a pretty big difference in performance.</li>
-<li>Arrays represent multiple data items of the same type using a single name.</li>
-</ul>
-<h4 id="disadvantages-of-using-arrays">Disadvantages of using arrays:<a class="headerlink" href="#disadvantages-of-using-arrays" title="Permanent link">&para;</a></h4>
-<ul>
-<li>You can’t change the size i.e. once you have declared the array you can’t change its size because of static memory
-  allocation.</li>
-<li>Here Insertion(s) and deletion(s) are difficult as the elements are stored in consecutive memory locations and the
-  shifting operation is costly too.</li>
-</ul>
-<h4 id="applications-on-array">Applications on Array<a class="headerlink" href="#applications-on-array" title="Permanent link">&para;</a></h4>
-<ul>
-<li>Array stores data elements of the same data type few languages like ruby, python can store different type of daata in
-  array.</li>
-<li>Arrays can be used for CPU scheduling.</li>
-<li>Used to Implement other data structures like Stacks, Queues, Heaps, Hash tables, etc.</li>
-</ul>
-<h4 id="looping-through-array">Looping through Array<a class="headerlink" href="#looping-through-array" title="Permanent link">&para;</a></h4>
-<pre><code class="language-text">int[]a={1,2,3,4,0,98}
-
-for(int i=0;i&lt;a.length;i++){
-    System.out.println(a[i])
-}
+<h3 id="arrays-prefix-sum">Arrays - Prefix Sum<a class="headerlink" href="#arrays-prefix-sum" title="Permanent link">&para;</a></h3>
+<p>To fill the prefix sum array, we run through index 1 to last and keep on adding the present element with the previous
+value in the prefix sum array.</p>
+<table>
+<thead>
+<tr>
+<th>input numbers</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+<th>6</th>
+<th>...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>prefix sums</strong></td>
+<td>1</td>
+<td>3</td>
+<td>6</td>
+<td>10</td>
+<td>15</td>
+<td>21</td>
+<td>...</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-text">ps[0]=a[0]
+ps[1]=a[0]+a[1]
+ps[2]=a[0]+a[1]+a[2]
 </code></pre>
-<h4 id="dynamic-arrays">Dynamic Arrays<a class="headerlink" href="#dynamic-arrays" title="Permanent link">&para;</a></h4>
+<p><strong>OR</strong></p>
+<pre><code class="language-text">ps[0]=a[0]
+ps[1]=ps[0]+a[1]
+ps[2]=ps[1]+a[2]
+</code></pre>
+<h4 id="applications">Applications<a class="headerlink" href="#applications" title="Permanent link">&para;</a></h4>
 <ul>
-<li>Vector</li>
-<li>ArrayList</li>
-<li>List</li>
-<li>Array(Ruby,Python)</li>
+<li><strong>Equilibrium index of an array:</strong> The equilibrium index of an array is an index such that the sum of elements at
+  lower indexes is equal to the sum of elements at higher indexes.<ul>
+<li>https://www.geeksforgeeks.org/equilibrium-index-of-an-array/</li>
 </ul>
-<h4 id="problems-solutions">Problems &amp; Solutions<a class="headerlink" href="#problems-solutions" title="Permanent link">&para;</a></h4>
-<p><a href="https://github.com/santosh-1987/RubyScripts/tree/master/Scaler/array_problems">Array Problems</a></p>
+</li>
+<li><strong>Find if there is a subarray with 0 sum:</strong> Given an array of positive and negative numbers, find if there is a
+  subarray (of size at least one) with 0 sum.<ul>
+<li>https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/</li>
+</ul>
+</li>
+<li><strong>Maximum subarray size, such that all subarrays of that size have sum less than k:</strong> Given an array of n positive
+  integers and a positive integer k, the task is to find the maximum subarray size such that all subarrays of that size
+  have the sum of elements less than k.<ul>
+<li>https://www.geeksforgeeks.org/maximum-subarray-size-subarrays-size-sum-less-k/</li>
+</ul>
+</li>
+<li><strong>Find the prime numbers which can written as sum of most consecutive primes:</strong> Given an array of limits. For every
+  limit, find the prime number which can be written as the sum of the most consecutive primes smaller than or equal to
+  the limit.<ul>
+<li>https://www.geeksforgeeks.org/find-prime-number-can-written-sum-consecutive-primes/</li>
+</ul>
+</li>
+<li><strong>Longest Span with same Sum in two Binary arrays:</strong> Given two binary arrays, arr1[] and arr2[] of the same size n.
+  Find the length of the longest common span (i, j) where j &gt;= i such that arr1[i] + arr1[i+1] + … + arr1[j] = arr2[i] +
+  arr2[i+1] + … + arr2[j].<ul>
+<li>https://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays/</li>
+</ul>
+</li>
+<li><strong>Maximum subarray sum modulo m:</strong> Given an array of n elements and an integer m. The task is to find the maximum
+  value of the sum of its subarray modulo m i.e find the sum of each subarray mod m and print the maximum value of this
+  modulo operation.<ul>
+<li>https://www.geeksforgeeks.org/maximum-subarray-sum-modulo-m/</li>
+</ul>
+</li>
+<li><strong>Maximum subarray size, such that all subarrays of that size have sum less than k:</strong> Given an array of n positive
+  integers and a positive integer k, the task is to find the maximum subarray size such that all subarrays of that size
+  have sum of elements less than k.<ul>
+<li>https://www.geeksforgeeks.org/maximum-subarray-size-subarrays-size-sum-less-k/</li>
+</ul>
+</li>
+<li><strong>Maximum occurred integer in n ranges :</strong> Given n ranges of the form L and R, the task is to find the maximum
+  occurring integer in all the ranges. If more than one such integer exits, print the smallest one.<ul>
+<li>https://www.geeksforgeeks.org/maximum-occurred-integer-n-ranges/</li>
+</ul>
+</li>
+<li><strong>Minimum cost for acquiring all coins with k extra coins allowed with every coin:</strong> You are given a list of N coins
+  of different denominations. you can pay an amount equivalent to any 1 coin and can acquire that coin. In addition,
+  once you have paid for a coin, we can choose at most K more coins and can acquire those for free. The task is to find
+  the minimum amount required to acquire all the N coins for a given value of K.<ul>
+<li>https://www.geeksforgeeks.org/minimum-cost-for-acquiring-all-coins-with-k-extra-coins-allowed-with-every-coin/</li>
+</ul>
+</li>
+<li><strong>Random number generator in arbitrary probability distribution fashion:</strong> Given n numbers, each with some frequency
+  of occurrence. Return a random number with a probability proportional to its frequency of occurrence.<ul>
+<li>https://www.geeksforgeeks.org/random-number-generator-in-arbitrary-probability-distribution-fashion/</li>
+</ul>
+</li>
+</ul>
 
               
             </article>
@@ -1040,41 +972,6 @@ for(int i=0;i&lt;a.length;i++){
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../../TimeComplexity/time_and_space_complexity/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Space Complexity" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Space Complexity
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../maths/" class="md-footer__link md-footer__link--next" aria-label="Next: Maths" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Maths
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
