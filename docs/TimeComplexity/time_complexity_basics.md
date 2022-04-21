@@ -27,51 +27,51 @@ Logarithm is the way to represent exponential expression as shown in the example
 ### Arithmetic Progression(AP)
 
 An arithmetic progression (AP) is a sequence where the differences between every two consecutive terms are the same.
-![arithmetic_progression_example1](../assets/time_complexity/arithmetic_progression_example1.png)
-![ap_brief](../assets/time_complexity/ap_brief.png)
+![arithmetic_progression_example1](../assets/images/time_complexity/arithmetic_progression_example1.png)
+![ap_brief](../assets/images/time_complexity/ap_brief.png)
 
 **nth term of an AP:**:
 
 - a<sub>n</sub> = a + (n - 1)d
 
 **Sum of N term in AP**
-![ap_formulae](../assets/time_complexity/ap_formulae.png)
+![ap_formulae](../assets/images/time_complexity/ap_formulae.png)
 
 ### Geometric Progression(AP)
 
-![gp_example](../assets/time_complexity/gp_example.png)
-![gp_generic](../assets/time_complexity/gp_generic.png)
-![gp_detail](../assets/time_complexity/gp_detail.png)
+![gp_example](../assets/images/time_complexity/gp_example.png)
+![gp_generic](../assets/images/time_complexity/gp_generic.png)
+![gp_detail](../assets/images/time_complexity/gp_detail.png)
 
 ## Problems
 
 - Problem 1
-  ![problem_1](../assets/time_complexity/problem_1.png)
+  ![problem_1](../assets/images/time_complexity/problem_1.png)
 - Problem 2
-  ![problem_2](../assets/time_complexity/problem_2.png)
+  ![problem_2](../assets/images/time_complexity/problem_2.png)
 - Problem 3
-  ![problem_3](../assets/time_complexity/problem_3.png)
+  ![problem_3](../assets/images/time_complexity/problem_3.png)
 - Problem 4
-  ![problem_4](../assets/time_complexity/problem_4.png)
+  ![problem_4](../assets/images/time_complexity/problem_4.png)
 - Problem 5
-  ![problem_5](../assets/time_complexity/problem_5.png)
+  ![problem_5](../assets/images/time_complexity/problem_5.png)
 - Problem 6
-  ![problem_log_6](../assets/time_complexity/problem_log_6.png)
+  ![problem_log_6](../assets/images/time_complexity/problem_log_6.png)
 - Problem 7
-  ![problem_7](../assets/time_complexity/problem_7.png)
+  ![problem_7](../assets/images/time_complexity/problem_7.png)
 - Problem 8
-  ![problem_8](../assets/time_complexity/problem_8.png)
+  ![problem_8](../assets/images/time_complexity/problem_8.png)
 - Problem 9
-  ![problem_9](../assets/time_complexity/problem_9.png)
+  ![problem_9](../assets/images/time_complexity/problem_9.png)
 - **Problem 10**
-  ![problem_10](../assets/time_complexity/problem_10.png)
+  ![problem_10](../assets/images/time_complexity/problem_10.png)
 - **Problem 11**
-  ![problem_11](../assets/time_complexity/problem_11.png)
+  ![problem_11](../assets/images/time_complexity/problem_11.png)
 
 ## How to calculate Big O
 
-![big_o_notation](../assets/time_complexity/big_o_notation.png)
-![big_o_examples](../assets/time_complexity/big_o_examples.png)
+![big_o_notation](../assets/images/time_complexity/big_o_notation.png)
+![big_o_examples](../assets/images/time_complexity/big_o_examples.png)
 
 ## Tips & Tricks
 

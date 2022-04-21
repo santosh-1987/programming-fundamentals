@@ -7,7 +7,7 @@
 
 - Given a Number check whether it is Prime or not?
     - This solution counts the number of factor and then returns true / false
-      ![Factors Count](../assets/problem-solving/factors_count.png)
+      ![Factors Count](../assets/images/problem-solving/factors_count.png)
 
 ```
 Any Positive number that has 2 factors, 1 and the number itself
@@ -22,14 +22,14 @@ Factors of a Number always exist in Pair.
 
 ```
 
-![Factors](../assets/problem-solving/factors.png)
-![Factor Rule](../assets/problem-solving/factor_rule.png)
-![Observation](../assets/problem-solving/Observation.png)
+![Factors](../assets/images/problem-solving/factors.png)
+![Factor Rule](../assets/images/problem-solving/factor_rule.png)
+![Observation](../assets/images/problem-solving/Observation.png)
 
 - Sum of N Natural Numbers
   - (N*(N+1))/2
-  - ![Sum N Natural Number](../assets/problem-solving/Sum%20N%20Natural%20Number.png)
-  - ![Natural Num](../assets/problem-solving/Natural%20Num.png)
+  - ![Sum N Natural Number](../assets/images/problem-solving/Sum%20N%20Natural%20Number.png)
+  - ![Natural Num](../assets/images/problem-solving/Natural%20Num.png)
 ## Assumptions
 
 - A system can run 10<sup>8</sup> Iterations in 1 Sec.

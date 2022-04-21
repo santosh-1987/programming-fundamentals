@@ -4,7 +4,7 @@ Subarrays are arrays inside another array which only contains contiguous element
 Given an array of integers, the task is to find the maximum subarray sum possible of all the non-empty subarrays.
 
 
-![kadanes_algo.png](../assets/kadanes_algo/sub_array/kadanes_algo.png)
+![kadanes_algo.png](../assets/images/kadanes_algo/sub_array/kadanes_algo.png)
 
 #### Example:
 ```java
@@ -33,4 +33,4 @@ It calculates the maximum sum subarray ending at a particular position by using 
   - If currSum is less than zero, make currSum equal to zero.
 - Finally, print the value of maxSum.
 
-![kadanse_algo_steps.png](../assets/kadanes_algo/sub_array/kadanse_algo_steps.png)
+![kadanse_algo_steps.png](../assets/images/kadanes_algo/sub_array/kadanse_algo_steps.png)

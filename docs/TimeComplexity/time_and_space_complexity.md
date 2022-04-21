@@ -21,7 +21,7 @@ doing so, it makes us **efficient programmers**.
 6. Complex notations like Exponential time, Quasilinear time, factorial time, etc. are used based on the type of
    functions defined.
 
-![time_graph](../assets/time_complexity/time_graph.png)
+![time_graph](../assets/images/time_complexity/time_graph.png)
 
 ### Asymptotic Analysis
 
@@ -32,7 +32,7 @@ algorithm takes with a given input, n.
 - Omega (Ω)
 - Theta (Θ)
 
-![big_o_assumption](../assets/time_complexity/big_o_assumption.png)
+![big_o_assumption](../assets/images/time_complexity/big_o_assumption.png)
 
 ### Space Complexity
 
@@ -57,12 +57,12 @@ Used to determine the extra space used in a Program.
 ```
 
 - Linear Search
-  ![sc_linear_search](../assets/time_complexity/sc_linear_search.png)
+  ![sc_linear_search](../assets/images/time_complexity/sc_linear_search.png)
 - Problem 1
-  ![sc_ex_1](../assets/time_complexity/sc_ex_1.png)
+  ![sc_ex_1](../assets/images/time_complexity/sc_ex_1.png)
 - Problem 2(_Advanced_)
-  ![sc_ex_2](../assets/time_complexity/sc_ex_2.png)
-  ![sc_ex_2_answer](../assets/time_complexity/sc_ex_2_answer.png)
+  ![sc_ex_2](../assets/images/time_complexity/sc_ex_2.png)
+  ![sc_ex_2_answer](../assets/images/time_complexity/sc_ex_2_answer.png)
 
 ### Time Limit Exceeded(TLE)
 

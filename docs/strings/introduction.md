@@ -8,7 +8,7 @@ What is a Character? Character is a Datatype which stores data in fixed length f
 
 Since computer only understand binary, hence they can only store number, So computers have mapping of character into
 numbers.
-![charcter_storage.png](../assets/strings/introduction/charcter_storage.png)
+![charcter_storage.png](../assets/images/strings/introduction/charcter_storage.png)
 
 ### Mutability?
 

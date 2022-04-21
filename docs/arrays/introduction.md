@@ -31,12 +31,19 @@ An array is a collection of items stored at contiguous memory locations.
 ### Looping through Array
 
 ```java
-int[]a={1,2,3,4,0,98}
+        int[]a={1,2,3,4,0,98}
 
-for(int i=0;i<a.length;i++){
-    System.out.println(a[i])
-}
+        for(int i=0;i<a.length;i++){
+            System.out.println(a[i])
+        }
 ```
+
+### Dynamic Arrays
+
+- Vector
+- ArrayList
+- List
+- Array(Ruby,Python)
 
 ### Problems & Solutions
 
