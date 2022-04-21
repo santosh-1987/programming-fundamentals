@@ -43,7 +43,7 @@ We are techies with a passion for technology and solving problems.
 - Arrays
     - [Introduction to Arrays](arrays/introduction.md)
     - [Maths](arrays/maths.md)
-    - Prefix Techniques
+    - [Prefix Sum](arrays/prefix_sum.md)
     - Carry Forward
     - Sub Arrays
     - 2D Matrices
