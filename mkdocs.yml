@@ -26,7 +26,7 @@ nav:
   - Bit Manipulation:
       - Logical Operator: bit-manipulation/bit_manipulation.md
       - Shift Operator: bit-manipulation/shift_operator.md
-  - Time & Space Complexity
+  - Time & Space Complexity:
       - Time Complexity: TimeComplexity/time_complexity_basics.md
       - Space Complexity: TimeComplexity/time_and_space_complexity.md
   - Arrays:
