@@ -34,7 +34,7 @@ We are techies with a passion for technology and solving problems.
 
 - Time Complexity
     - [Time Complexity](TimeComplexity/time_complexity_intoduction.md)
-    - [Space Complexity](TimeComplexity/time_complexity_intoduction.md)
+    - [Space Complexity](TimeComplexity/time_and_space_complexity.md)
 - Problem Solving
     - [P.S Introduction](problem-solving/introduction.md)
 
