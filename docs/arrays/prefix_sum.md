@@ -213,6 +213,10 @@ class Solution:
 ![ps_even_odd_1](../assets/images/arrays/ps_even_odd_1.png)
 ![ps_even_odd_2](../assets/images/arrays/ps_even_odd_2.png)
 
+- If you are removing a element from array and calulating the sum(even) & sum(odd) use this formulae:
+  ![special_index_prefix_sum_technique](../assets/images/arrays/special_index_prefix_sum_technique.png)
+  - Example:
+    ![special_index_prefix_sum_example](../assets/images/arrays/special_index_prefix_sum_example.png)
 - Given an array count the number of special indexes in the array.
     - Special Index: An Index in the array after removing which Sum<Odd> Indexed Numbers = Sum<Even> Indexed Numbers
       ![special_index_defn](../assets/images/arrays/special_index_defn.png)

@@ -71,6 +71,6 @@ Your Code is taking more than expected time.
 
 ### Tips & Tricks
 
-- Use https://www.desmos.com/calculator for graphical view
+- Use [Desmos Graphical Calculator](https://www.desmos.com/calculator) for graphical view
 - It doesnt matter where your code in running (env, devices), We can say that it is right to compare the number of
   iterations instead of execution time. as number of iteration is going to stay the same across env, devices.
