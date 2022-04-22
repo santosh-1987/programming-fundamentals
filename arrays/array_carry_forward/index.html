@@ -1171,7 +1171,43 @@
     <img alt="bulbs_2" src="../../assets/images/arrays/bulbs_2.png" /> 
     <img alt="bulbs_2_bf_approach" src="../../assets/images/arrays/bulbs_2_bf_approach.png" />
   - <strong>Optimized</strong>
-    <img alt="bulbs_3_optimized" src="../../assets/images/arrays/bulbs_3_optimized.png" /></p>
+    <img alt="bulbs_3_optimized" src="../../assets/images/arrays/bulbs_3_optimized.png" />
+<strong>Solution</strong></p>
+<pre><code class="language-java">// Java
+public class Solution {
+  public int bulbs(ArrayList &lt; Integer &gt; A) {
+
+    int state = 0, ans = 0;
+
+    // state variable will represent the state which we have to change.
+    for (int i = 0; i &lt; A.size(); i++) {
+
+      if (A.get(i) == state) {
+        ans++;
+        // As we will switch this, all the bulbs on right side will also change. So, change state = 1 - state
+        state = 1 - state;
+      }
+    }
+    return ans;
+  }
+}
+</code></pre>
+<pre><code class="language-javascript">// Javascript
+module.exports = {
+  bulbs: function (A) {
+    let state = 0,
+      ans = 0;
+
+    for (let i = 0; i &lt; A.length; i++) {
+      if (A[i] == state) {
+        ans++;
+        state = 1 - state;
+      }
+    }
+    return ans;
+  },
+};
+</code></pre>
 <h3 id="window-sliding-technique">Window Sliding Technique<a class="headerlink" href="#window-sliding-technique" title="Permanent link">&para;</a></h3>
 <p>Window Sliding Technique is a computational technique which aims to reduce the use of nested loop and replace it with a
 single loop, thereby reducing the time complexity.</p>
