@@ -9,3 +9,5 @@ Subarrays are arrays within another array.
 
 ![sub_array_defn](../assets/images/arrays/sub_array/sub_array_defn.png)
 
+**_Note:_** No of Sub arrays for a Array of Size N - `(N*(N+1))/2`
+
