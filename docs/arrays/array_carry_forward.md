@@ -1,4 +1,4 @@
-**## Arrays - Carry Forward
+## Arrays - Carry Forward
 
 Carry forward technique on array is used when we want to skip any element of the array while performing some operations.
 
