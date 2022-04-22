@@ -11,3 +11,15 @@ Subarrays are arrays within another array.
 
 **_Note:_** No of Sub arrays for a Array of Size N - `(N*(N+1))/2`
 
+### Problem 1 - Print all values of a sub array
+
+![print_values_of_a_subarray](../assets/images/arrays/sub_array/print_values_of_a_subarray.png)
+
+### Problem 2 - Sum of a given sub array
+
+![sum_of_a_given_subarray](../assets/images/arrays/sub_array/sum_of_a_given_subarray.png)
+
+### Problem 3 - Print all Sub arrays of a Given Array
+
+![print_all_subarray](../assets/images/arrays/sub_array/print_all_subarray.png)
+
