@@ -81,6 +81,45 @@ module.exports = {
     ![bulbs_2_bf_approach](../assets/images/arrays/bulbs_2_bf_approach.png)
   - **Optimized**
     ![bulbs_3_optimized](../assets/images/arrays/bulbs_3_optimized.png)
+**Solution**
+```java
+// Java
+public class Solution {
+  public int bulbs(ArrayList < Integer > A) {
+
+    int state = 0, ans = 0;
+
+    // state variable will represent the state which we have to change.
+    for (int i = 0; i < A.size(); i++) {
+
+      if (A.get(i) == state) {
+        ans++;
+        // As we will switch this, all the bulbs on right side will also change. So, change state = 1 - state
+        state = 1 - state;
+      }
+    }
+    return ans;
+  }
+}
+```
+
+```javascript
+// Javascript
+module.exports = {
+  bulbs: function (A) {
+    let state = 0,
+      ans = 0;
+
+    for (let i = 0; i < A.length; i++) {
+      if (A[i] == state) {
+        ans++;
+        state = 1 - state;
+      }
+    }
+    return ans;
+  },
+};
+```
 
 ## Window Sliding Technique
 
