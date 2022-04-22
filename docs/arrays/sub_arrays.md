@@ -23,3 +23,10 @@ Subarrays are arrays within another array.
 
 ![print_all_subarray](../assets/images/arrays/sub_array/print_all_subarray.png)
 
+### Problem 4 - Print Sum of Every Sub array
+
+![sum_sub_array](../assets/images/arrays/sub_array/sum_sub_array.png)
+
+### Problem 5 - Print Sum of all Sub arrays starting with a given index
+
+![sum_sub_arrays_starting_with_index_i](../assets/images/arrays/sub_array/sum_sub_arrays_starting_with_index_i.png)
