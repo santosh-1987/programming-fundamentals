@@ -852,6 +852,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#creating-prefix-sum-even-and-odd-arrays" class="md-nav__link">
+    Creating Prefix Sum even and Odd Arrays
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#applications" class="md-nav__link">
     Applications
   </a>
@@ -918,6 +925,9 @@ ps[1]=ps[0]+a[1]
 ps[2]=ps[1]+a[2]
 </code></pre>
 <p><img alt="prefix_sum_intro" src="../../assets/images/arrays/prefix_sum_intro.png" /></p>
+<ul>
+<li><strong>Whenever you encounter a problem with range sum use Prefix Sum approach to solve the problem.</strong></li>
+</ul>
 <h4 id="build-prefix-sum">Build Prefix Sum<a class="headerlink" href="#build-prefix-sum" title="Permanent link">&para;</a></h4>
 <p><img alt="build_prefix_sum" src="../../assets/images/arrays/build_prefix_sum.png" /></p>
 <h4 id="problems">Problems<a class="headerlink" href="#problems" title="Permanent link">&para;</a></h4>
@@ -1102,63 +1112,77 @@ class Solution:
                 res+=1
         return res
 </code></pre>
+<h4 id="creating-prefix-sum-even-and-odd-arrays">Creating Prefix Sum even and Odd Arrays<a class="headerlink" href="#creating-prefix-sum-even-and-odd-arrays" title="Permanent link">&para;</a></h4>
+<p><img alt="ps_even_odd_1" src="../../assets/images/arrays/ps_even_odd_1.png" />
+<img alt="ps_even_odd_2" src="../../assets/images/arrays/ps_even_odd_2.png" /></p>
+<ul>
+<li>Given an array count the number of special indexes in the array.<ul>
+<li>Special Index: An Index in the array after removing which Sum<Odd> Indexed Numbers = Sum<Even> Indexed Numbers
+  <img alt="special_index_defn" src="../../assets/images/arrays/special_index_defn.png" />
+  <img alt="special_index_example" src="../../assets/images/arrays/special_index_example.png" /></li>
+<li>Solution
+  <img alt="approach_special_index_problem" src="../../assets/images/arrays/approach_special_index_problem.png" />
+  <img alt="solution_special_index_problem" src="../../assets/images/arrays/solution_special_index_problem.png" /></li>
+</ul>
+</li>
+</ul>
 <h4 id="applications">Applications<a class="headerlink" href="#applications" title="Permanent link">&para;</a></h4>
 <ul>
 <li><strong>Equilibrium index of an array:</strong> The equilibrium index of an array is an index such that the sum of elements at
   lower indexes is equal to the sum of elements at higher indexes.<ul>
-<li>https://www.geeksforgeeks.org/equilibrium-index-of-an-array/</li>
+<li><a href="https://www.geeksforgeeks.org/equilibrium-index-of-an-array/">equilibrium-index-of-an-array</a></li>
 </ul>
 </li>
 <li><strong>Find if there is a subarray with 0 sum:</strong> Given an array of positive and negative numbers, find if there is a
   subarray (of size at least one) with 0 sum.<ul>
-<li>https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/</li>
+<li><a href="https://www.geeksforgeeks.org/find-if-there-is-a-subarray-with-0-sum/">find-if-there-is-a-subarray-with-0-sum</a></li>
 </ul>
 </li>
 <li><strong>Maximum subarray size, such that all subarrays of that size have sum less than k:</strong> Given an array of n positive
   integers and a positive integer k, the task is to find the maximum subarray size such that all subarrays of that size
   have the sum of elements less than k.<ul>
-<li>https://www.geeksforgeeks.org/maximum-subarray-size-subarrays-size-sum-less-k/</li>
+<li><a href="https://www.geeksforgeeks.org/maximum-subarray-size-subarrays-size-sum-less-k/">maximum-subarray-size-subarrays-size-sum-less-k</a></li>
 </ul>
 </li>
 <li><strong>Find the prime numbers which can written as sum of most consecutive primes:</strong> Given an array of limits. For every
   limit, find the prime number which can be written as the sum of the most consecutive primes smaller than or equal to
   the limit.<ul>
-<li>https://www.geeksforgeeks.org/find-prime-number-can-written-sum-consecutive-primes/</li>
+<li><a href="https://www.geeksforgeeks.org/find-prime-number-can-written-sum-consecutive-primes/">find-prime-number-can-written-sum-consecutive-primes</a></li>
 </ul>
 </li>
 <li><strong>Longest Span with same Sum in two Binary arrays:</strong> Given two binary arrays, arr1[] and arr2[] of the same size n.
   Find the length of the longest common span (i, j) where j &gt;= i such that arr1[i] + arr1[i+1] + … + arr1[j] = arr2[i] +
   arr2[i+1] + … + arr2[j].<ul>
-<li>https://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays/</li>
+<li><a href="https://www.geeksforgeeks.org/longest-span-sum-two-binary-arrays/">longest-span-sum-two-binary-arrays</a></li>
 </ul>
 </li>
 <li><strong>Maximum subarray sum modulo m:</strong> Given an array of n elements and an integer m. The task is to find the maximum
   value of the sum of its subarray modulo m i.e find the sum of each subarray mod m and print the maximum value of this
   modulo operation.<ul>
-<li>https://www.geeksforgeeks.org/maximum-subarray-sum-modulo-m/</li>
+<li><a href="https://www.geeksforgeeks.org/maximum-subarray-sum-modulo-m/">maximum-subarray-sum-modulo-m</a></li>
 </ul>
 </li>
 <li><strong>Maximum subarray size, such that all subarrays of that size have sum less than k:</strong> Given an array of n positive
   integers and a positive integer k, the task is to find the maximum subarray size such that all subarrays of that size
   have sum of elements less than k.<ul>
-<li>https://www.geeksforgeeks.org/maximum-subarray-size-subarrays-size-sum-less-k/</li>
+<li><a href="https://www.geeksforgeeks.org/maximum-subarray-size-subarrays-size-sum-less-k/">maximum-subarray-size-subarrays-size-sum-less-k</a></li>
 </ul>
 </li>
 <li><strong>Maximum occurred integer in n ranges :</strong> Given n ranges of the form L and R, the task is to find the maximum
   occurring integer in all the ranges. If more than one such integer exits, print the smallest one.<ul>
-<li>https://www.geeksforgeeks.org/maximum-occurred-integer-n-ranges/</li>
+<li><a href="https://www.geeksforgeeks.org/maximum-occurred-integer-n-ranges/">maximum-occurred-integer-n-ranges</a></li>
 </ul>
 </li>
 <li><strong>Minimum cost for acquiring all coins with k extra coins allowed with every coin:</strong> You are given a list of N coins
   of different denominations. you can pay an amount equivalent to any 1 coin and can acquire that coin. In addition,
   once you have paid for a coin, we can choose at most K more coins and can acquire those for free. The task is to find
   the minimum amount required to acquire all the N coins for a given value of K.<ul>
-<li>https://www.geeksforgeeks.org/minimum-cost-for-acquiring-all-coins-with-k-extra-coins-allowed-with-every-coin/</li>
+<li><a href="https://www.geeksforgeeks.org/minimum-cost-for-acquiring-all-coins-with-k-extra-coins-allowed-with-every-coin/">minimum-cost-for-acquiring-all-coins-with-k-extra-coins-allowed-with-every-coin</a></li>
 </ul>
 </li>
 <li><strong>Random number generator in arbitrary probability distribution fashion:</strong> Given n numbers, each with some frequency
   of occurrence. Return a random number with a probability proportional to its frequency of occurrence.<ul>
-<li>https://www.geeksforgeeks.org/random-number-generator-in-arbitrary-probability-distribution-fashion/</li>
+<li><a href="https://www.geeksforgeeks.org/random-number-generator-in-arbitrary-probability-distribution-fashion/">random-number-generator-in-arbitrary-probability-distribution-fashion</a></li>
 </ul>
 </li>
 </ul>
