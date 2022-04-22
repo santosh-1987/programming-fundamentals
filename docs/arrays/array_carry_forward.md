@@ -1,4 +1,4 @@
-## Arrays - Carry Forward
+**## Arrays - Carry Forward
 
 Carry forward technique on array is used when we want to skip any element of the array while performing some operations.
 
@@ -66,6 +66,20 @@ module.exports = {
     }
 };
 ```
+
+### PROBLEM 3 - Bulbs
+
+- A wire connects N light bulbs. Each bulb has a switch associated with it; however, due to faulty wiring, a switch also
+  changes the state of all the bulbs to the right of the current bulb.
+- Given an initial state of all bulbs, find the minimum number of switches you have to press to turn on all the bulbs.
+- You can press the same switch multiple times.
+    - _Note_: 0 represents the bulb is off and 1 represents the bulb is on.
+
+  ![bulbs_1](../assets/images/arrays/bulbs_1.png)
+  - **BruteForce**
+    ![bulbs_2](../assets/images/arrays/bulbs_2.png) 
+  - **Optimized**
+    ![bulbs_3_optimized](../assets/images/arrays/bulbs_3_optimized.png)
 
 ## Window Sliding Technique
 
