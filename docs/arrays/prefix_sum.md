@@ -60,7 +60,7 @@ public class Solution {
 }
 ```
 
-  ```python
+```python
   # Python
   class Solution:
     # @param A : list of integers
@@ -77,7 +77,7 @@ public class Solution {
                 return i
             l += A[i]
         return -1;
-  ```
+```
 
 - Count ways to make sum of odd and even indexed elements equal by removing an array element
     - Given an array, arr[] of size N, the task is to find the count of array indices such that removing an element from
