@@ -22,6 +22,51 @@ Carry forward technique on array is used when we want to skip any element of the
 **Optimized Solution:**
 ![cf_problem_1_optimized](../assets/images/arrays/cf_problem_1_optimized.png)
 
+### PROBLEM 2
+
+![cf_problem_2](../assets/images/arrays/cf_problem_2.png)
+**Observation**
+![cf_problem_2_observation_1](../assets/images/arrays/cf_problem_2_observation_1.png)
+![cf_problem_2_observation_2](../assets/images/arrays/cf_problem_2_observation_2.png)
+![cf_problem_2_bf_tc](../assets/images/arrays/cf_problem_2_bf_tc.png)
+
+**Optimized:**
+![cf_problem_2_optimized](../assets/images/arrays/cf_problem_2_optimized.png)
+**Solution:**
+
+```javascript
+module.exports = {
+    //param A : array of integers
+    //return an integer
+    solve: function (A) {
+        let minValue = Number.MAX_VALUE;
+        let maxValue = Number.MIN_VALUE;
+        let n = A.length;
+        for (let i = 0; i < n; i++) {
+            minValue = Math.min(minValue, A[i]);
+            maxValue = Math.max(maxValue, A[i]);
+        }
+
+        let pos_min = -1, pos_max = -1, ans = Number.MAX_VALUE;
+
+
+        for (let i = 0; i < n; i++) {
+
+            if (A[i] == minValue)
+                pos_min = i;
+
+            if (A[i] == maxValue)
+                pos_max = i;
+
+            if (pos_max != -1 && pos_min != -1)
+                ans = Math.min(ans, Math.abs(pos_min - pos_max) + 1);
+        }
+
+        return ans;
+    }
+};
+```
+
 ## Window Sliding Technique
 
 Window Sliding Technique is a computational technique which aims to reduce the use of nested loop and replace it with a
