@@ -45,6 +45,7 @@ We are techies with a passion for technology and solving problems.
     - [Maths](arrays/maths.md)
     - [Prefix Sum](arrays/prefix_sum.md)
     - [Carry Forward](arrays/array_carry_forward.md)
+    - [Sliding Window](https://santosh-1987.github.io/programming-fundamentals/arrays/array_carry_forward/#window-sliding-technique)
     - [Sub Arrays](arrays/sub_arrays.md)
     - 2D Matrices
     - Interview Problems
