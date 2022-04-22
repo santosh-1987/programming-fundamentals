@@ -44,7 +44,7 @@ We are techies with a passion for technology and solving problems.
     - [Introduction to Arrays](arrays/introduction.md)
     - [Maths](arrays/maths.md)
     - [Prefix Sum](arrays/prefix_sum.md)
-    - Carry Forward
+    - [Carry Forward](arrays/array_carry_forward.md)
     - Sub Arrays
     - 2D Matrices
     - Interview Problems

@@ -31,6 +31,8 @@ nav:
       - Space Complexity: TimeComplexity/time_and_space_complexity.md
   - Arrays:
       - Introduction: arrays/introduction.md
+      - Prefix Sum: arrays/prefix_sum.md
+      - Carry Forward Technique: arrays/array_carry_forward.md
       - Maths: arrays/maths.md
       - Sorting Introduction: arrays/sorting.md
   - Strings:

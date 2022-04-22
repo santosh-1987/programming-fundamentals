@@ -1,5 +1,8 @@
 ## Arrays - Prefix Sum
 
+Prefix array is a very vital tool in competitive programming. This helps to minimize the repeated calculation done in an
+array and thus reduces the time complexity of your program.
+
 To fill the prefix sum array, we run through index 1 to last and keep on adding the present element with the previous
 value in the prefix sum array.
 
@@ -19,11 +22,18 @@ ps[2]=a[0]+a[1]+a[2]
 ps[0]=a[0]
 ps[1]=ps[0]+a[1]
 ps[2]=ps[1]+a[2]
+
+ps[i] = ps[i-1] + a[i]
 ```
 
 ![prefix_sum_intro](../assets/images/arrays/prefix_sum_intro.png)
 
 - **Whenever you encounter a problem with range sum use Prefix Sum approach to solve the problem.**
+
+### Properties
+
+If the given array A has all non-negative numbers the the prefix array constructed will be sorted in non-descending
+order.
 
 ### Build Prefix Sum
 
@@ -215,8 +225,8 @@ class Solution:
 
 - If you are removing a element from array and calulating the sum(even) & sum(odd) use this formulae:
   ![special_index_prefix_sum_technique](../assets/images/arrays/special_index_prefix_sum_technique.png)
-  - Example:
-    ![special_index_prefix_sum_example](../assets/images/arrays/special_index_prefix_sum_example.png)
+    - Example:
+      ![special_index_prefix_sum_example](../assets/images/arrays/special_index_prefix_sum_example.png)
 - Given an array count the number of special indexes in the array.
     - Special Index: An Index in the array after removing which Sum<Odd> Indexed Numbers = Sum<Even> Indexed Numbers
       ![special_index_defn](../assets/images/arrays/special_index_defn.png)
