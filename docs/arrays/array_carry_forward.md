@@ -78,6 +78,7 @@ module.exports = {
   ![bulbs_1](../assets/images/arrays/bulbs_1.png)
   - **BruteForce**
     ![bulbs_2](../assets/images/arrays/bulbs_2.png) 
+    ![bulbs_2_bf_approach](../assets/images/arrays/bulbs_2_bf_approach.png)
   - **Optimized**
     ![bulbs_3_optimized](../assets/images/arrays/bulbs_3_optimized.png)
 
