@@ -38,27 +38,27 @@ ps[2]=ps[1]+a[2]
     - Optimized Approach using Prefix Sum
       ![optimized_ei](../assets/images/arrays/optimized_ei.png)
 
-  ```java
+```java
   // Java Solution
-  public class Solution {
-      public int solve(int[] A) {
-          long sum1 = 0;
-          for(int i = 0; i < A.length ; i++) sum1 += A[i];
-          long sum2 = 0;
-          int ans = Integer.MAX_VALUE;
-          for(int i = 0 ; i < A.length ; i++){
-              sum1 -= A[i];
-              if(sum1 == sum2){
-                  ans = i;
-                  break;
-              }
-              sum2 += A[i];
-          }
-          if(ans == Integer.MAX_VALUE)ans =- 1;
-          return ans;
-      }
-  }
-  ```
+public class Solution {
+    public int solve(int[] A) {
+        long sum1 = 0;
+        for (int i = 0; i < A.length; i++) sum1 += A[i];
+        long sum2 = 0;
+        int ans = Integer.MAX_VALUE;
+        for (int i = 0; i < A.length; i++) {
+            sum1 -= A[i];
+            if (sum1 == sum2) {
+                ans = i;
+                break;
+            }
+            sum2 += A[i];
+        }
+        if (ans == Integer.MAX_VALUE) ans = -1;
+        return ans;
+    }
+}
+```
 
   ```python
   # Python
@@ -78,6 +78,7 @@ ps[2]=ps[1]+a[2]
             l += A[i]
         return -1;
   ```
+
 - Count ways to make sum of odd and even indexed elements equal by removing an array element
     - Given an array, arr[] of size N, the task is to find the count of array indices such that removing an element from
       these indices makes the sum of even-indexed and odd-indexed array elements equal.
