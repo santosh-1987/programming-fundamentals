@@ -4,7 +4,7 @@
 
 We are techies with a passion for technology and solving problems.
 
-*We want to help software engineers*
+*We want to help self & engineers like you who are keen to explore and develop*
 
 - Engage in constructive discussions
 - Share Tips, Tricks
@@ -47,7 +47,7 @@ We are techies with a passion for technology and solving problems.
     - [Carry Forward](arrays/array_carry_forward.md)
     - [Sliding Window](https://santosh-1987.github.io/programming-fundamentals/arrays/array_carry_forward/#window-sliding-technique)
     - [Sub Arrays](arrays/sub_arrays.md)
-    - 2D Matrices
+    - [2D Matrices](matrix/2d_matrices.md)
     - Interview Problems
     - Arrays Advanced Problems
 - Strings
