@@ -57,8 +57,11 @@ Vectors are series of scalars. For example, [1, 3, 5, 7, 9] is a vector. You typ
 ![rotate_matrix](../assets/images/matrix/rotate_matrix.png)
 
 **Refer:**
+
 [2D Matrix](https://github.com/santosh-1987/RubyScripts/blob/master/Scaler/two_dimensional_matrix.rb)
+
 [Rotate Matrix ](https://github.com/santosh-1987/RubyScripts/blob/master/Scaler/rotate_matrix.rb)
+
 [Spiral Array](https://github.com/santosh-1987/RubyScripts/blob/master/Scaler/spiral_array.rb)
 
 ###
