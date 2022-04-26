@@ -30,3 +30,11 @@ Subarrays are arrays within another array.
 ### Problem 5 - Print Sum of all Sub arrays starting with a given index
 
 ![sum_sub_arrays_starting_with_index_i](../assets/images/arrays/sub_array/sum_sub_arrays_starting_with_index_i.png)
+
+### Problem 6 - Given an Array , Find the sum of all subarray sums. - Important
+
+![sum_of_all_subarray](../assets/images/arrays/sub_array/sum_of_all_subarray.png)
+![sum_all_sa_1](../assets/images/arrays/sub_array/sum_all_sa_1.png)
+![sa_all_sa_2](../assets/images/arrays/sub_array/sa_all_sa_2.png)
+![sa_all_sa_3](../assets/images/arrays/sub_array/sa_all_sa_3.png)
+![sa_all_sa_4](../assets/images/arrays/sub_array/sa_all_sa_4.png)
