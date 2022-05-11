@@ -493,6 +493,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#data-structure-that-requires-knowledge-of-recursion" class="md-nav__link">
+    Data Structure that requires knowledge of recursion
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -952,6 +959,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#data-structure-that-requires-knowledge-of-recursion" class="md-nav__link">
+    Data Structure that requires knowledge of recursion
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -974,26 +988,52 @@
   <h1>Recursion</h1>
 
 <h3 id="recursion">Recursion<a class="headerlink" href="#recursion" title="Permanent link">&para;</a></h3>
-<p>The process in which a function calls itself directly or indirectly is called recursion and the corresponding function is called as recursive function.</p>
+<p>The process in which a function calls itself directly or indirectly is called recursion and the corresponding function
+is called as recursive function.</p>
+<pre><code class="language-text">func(x){
+    func(x-1);
+}
+</code></pre>
 <h6 id="in-other-words">In Other Words<a class="headerlink" href="#in-other-words" title="Permanent link">&para;</a></h6>
-<p>Recursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to call a function inside the same function, then it is called a recursive call of the function.</p>
+<p>Recursion is the process of repeating items in a self-similar way. In programming languages, if a program allows you to
+call a function inside the same function, then it is called a recursive call of the function.</p>
+<p>Recursion is a technique of solving a problem using smaller instances of same problem.</p>
+<pre><code class="language-text">Sum of N Natural Numbers 
+
+Sum(N) = Sum(N-1) + N
+</code></pre>
+<p><em>Sum of N Natural Number</em>
+<img alt="n_natural_number" src="../../assets/images/recursion/n_natural_number.png" />
+<em>Recursion Rule</em>
+<img alt="rule_of_recursion" src="../../assets/images/recursion/rule_of_recursion.png" /></p>
 <ul>
 <li>
 <p><strong>Fibonacci Series</strong>
   <img alt="image" src="../../assets/images/recursion/recursion_fib.gif" /></p>
 </li>
 <li>
-<p><strong>Tower of Hanoi</strong></p>
+<p><strong>Tower of Hanoi</strong>
+  <img alt="image" src="../../assets/images/recursion/tower-of-hanoi.gif" /></p>
 </li>
 </ul>
-<p><img alt="image" src="../../assets/images/recursion/tower-of-hanoi.gif" /></p>
 <h4 id="when-to-loop-when-to-recurse">When to Loop? When to Recurse?<a class="headerlink" href="#when-to-loop-when-to-recurse" title="Permanent link">&para;</a></h4>
 <blockquote>
 <p>A loop is used to perform a repetitive block of code as many times as necessary for the program.</p>
 </blockquote>
-<p><em>A big difference between recursion and iteration is the way that they end. While a loop executes the block of code, checking each time to see if it is at the end of the sequence, there is no such sequential end for recursive code.</em></p>
+<p><em>A big difference between recursion and iteration is the way that they end. While a loop executes the block of code,
+checking each time to see if it is at the end of the sequence, there is no such sequential end for recursive code.</em></p>
 <h4 id="when-should-i-use-recursion">When should I use recursion?<a class="headerlink" href="#when-should-i-use-recursion" title="Permanent link">&para;</a></h4>
-<p><em>Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good for working on things that have many possible branches and are too complex for an iterative approach.</em></p>
+<p><em>Recursion is made for solving problems that can be broken down into smaller, repetitive problems. It is especially good
+for working on things that have many possible branches and are too complex for an iterative approach.</em></p>
+<h4 id="data-structure-that-requires-knowledge-of-recursion">Data Structure that requires knowledge of recursion<a class="headerlink" href="#data-structure-that-requires-knowledge-of-recursion" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Merge Sort/Quick Sort</li>
+<li>Binary Tree/ BST</li>
+<li>Heaps/ Tries</li>
+<li>Segment Trees</li>
+<li>Dynamic Programming</li>
+<li>Backtracking</li>
+</ul>
 
               
             </article>
