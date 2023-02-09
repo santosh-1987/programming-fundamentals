@@ -10,6 +10,7 @@ site_url: "https://santosh-1987.github.io/programming-fundamentals/"
 
 nav:
   - Home: index.md
+  - Terminologies: computer_basics/terminology.md
   - Program Constructs:
       - Construct Definition: programming-constructs/index.md
       - Sequence: programming-constructs/sequence.md

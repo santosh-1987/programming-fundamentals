@@ -16,10 +16,6 @@ _We want to help self & engineers like you who are keen to explore and develop_
 
 **_Try yourself before reaching out for help._**
 
-### Terminologies
-
-- [Computer Programming Terminologies](computer_basics/terminology.md)
-
 ### Programming Construct
 
 - Concepts of [Programming Construct](programming-constructs/index.md).

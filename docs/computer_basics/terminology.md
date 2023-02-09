@@ -26,3 +26,9 @@ C14AEBF1 5BC3
 Paradigm can also be termed as method to solve some problem or do some task. Programming paradigm is an approach to solve problem using some programming language or also we can say it is a method to solve a problem using tools and techniques that are available to us following some approach.
 
 ![paradigm.png](../assets/images/terminologies/paradigm.png)
+
+## Mutable & Immutable
+
+Mutable is a fancy way of saying that the internal state of the object is changed/mutated. So, the simplest definition is: An object whose internal state can be changed is mutable. On the other hand, immutable doesn't allow any change in the object once it has been created.
+
+
