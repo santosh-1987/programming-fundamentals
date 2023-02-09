@@ -4,7 +4,7 @@
 
 We are techies with a passion for technology and solving problems.
 
-*We want to help self & engineers like you who are keen to explore and develop*
+_We want to help self & engineers like you who are keen to explore and develop_
 
 - Engage in constructive discussions
 - Share Tips, Tricks
@@ -15,6 +15,10 @@ We are techies with a passion for technology and solving problems.
 **_Should not give up and we should not allow the problem to defeat us._**
 
 **_Try yourself before reaching out for help._**
+
+### Terminologies
+
+- [Computer Programming Terminologies](computer_basics/terminology.md)
 
 ### Programming Construct
 
@@ -33,27 +37,27 @@ We are techies with a passion for technology and solving problems.
 ### Problem Solving / Time Complexity / Space Complexity
 
 - Time Complexity
-    - [Time Complexity](TimeComplexity/time_complexity_basics.md)
-    - [Space Complexity](TimeComplexity/time_and_space_complexity.md)
+  - [Time Complexity](TimeComplexity/time_complexity_basics.md)
+  - [Space Complexity](TimeComplexity/time_and_space_complexity.md)
 - Problem Solving
-    - [P.S Introduction](problem-solving/introduction.md)
+  - [P.S Introduction](problem-solving/introduction.md)
 
 ### Data Structures
 
 - Arrays
-    - [Introduction to Arrays](arrays/introduction.md)
-    - [Maths](arrays/maths.md)
-    - [Prefix Sum](arrays/prefix_sum.md)
-    - [Carry Forward](arrays/array_carry_forward.md)
-    - [Sliding Window](https://santosh-1987.github.io/programming-fundamentals/arrays/array_carry_forward/#window-sliding-technique)
-    - [Sub Arrays](arrays/sub_arrays.md)
-    - [2D Matrices](matrix/2d_matrices.md)
-    - Interview Problems
-    - Arrays Advanced Problems
+  - [Introduction to Arrays](arrays/introduction.md)
+  - [Maths](arrays/maths.md)
+  - [Prefix Sum](arrays/prefix_sum.md)
+  - [Carry Forward](arrays/array_carry_forward.md)
+  - [Sliding Window](https://santosh-1987.github.io/programming-fundamentals/arrays/array_carry_forward/#window-sliding-technique)
+  - [Sub Arrays](arrays/sub_arrays.md)
+  - [2D Matrices](matrix/2d_matrices.md)
+  - Interview Problems
+  - Arrays Advanced Problems
 - Strings
-    - [Introduction](strings/introduction.md)
+  - [Introduction](strings/introduction.md)
 - Hashing
-    - [Introduction](hashing/hashing-intro.md)
+  - [Introduction](hashing/hashing-intro.md)
 
 ### Algorithms
 
