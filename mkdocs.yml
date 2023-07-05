@@ -93,6 +93,11 @@ plugins:
 markdown_extensions:
   - admonition
   - footnotes
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - toc:
       permalink: true
       baselevel: 2
