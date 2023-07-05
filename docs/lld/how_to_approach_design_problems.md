@@ -27,7 +27,7 @@
 
 1. One Liner(Problem Statement)
 2. Ask Questions
-3. Look for
+3. 'Look for':
    1. Entities:
       1. Attributes
    2. Verb:
