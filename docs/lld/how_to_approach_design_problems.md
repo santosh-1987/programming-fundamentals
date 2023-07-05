@@ -30,7 +30,7 @@
 3. 'Look for':
    1. Entities:
       1. Attributes
-   2. Verb:
+   2. Verbs:
       1. Behaviour
 4. Tech Design
 
