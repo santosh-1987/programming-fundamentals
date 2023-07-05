@@ -85,7 +85,6 @@ extra:
     provider: mike
 
 plugins:
-  - table-reader
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
       prebuild_index: true
