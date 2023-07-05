@@ -21,10 +21,10 @@
 
 ### Steps
 - Identify the Entities 
-  - Identify the noun in Requirements 
+   - Identify the noun in Requirements 
 - Identify the Attributes/Functionality
-  - Identify the Verbs
-
+   - Identify the Verbs
+--------
 1. One Liner(Problem Statement)
 2. Ask Questions
 3. Look for:
