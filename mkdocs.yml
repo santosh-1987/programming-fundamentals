@@ -85,12 +85,15 @@ extra:
     provider: mike
 
 plugins:
+  - glightbox
+  - table-reader
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
       prebuild_index: true
 
 # Extensions
 markdown_extensions:
+  - tables
   - admonition
   - footnotes
   - pymdownx.critic
@@ -98,6 +101,15 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       permalink: true
       baselevel: 2
