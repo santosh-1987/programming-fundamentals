@@ -103,6 +103,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - def_list
+  - mdx_truly_sane_lists
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.emoji:
