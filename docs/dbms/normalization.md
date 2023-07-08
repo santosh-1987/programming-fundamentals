@@ -19,6 +19,9 @@ DB Normalization is a technique that detects degree of redundancy(needless) of d
 - 3NF (Third Normal Form)
   - Rule 1- Be in 2NF
   - Rule 2- Has no transitive functional dependencies
+  - ![img.png](../assets/images/rdbms/3nf_desc.png)
+  - Can I find the value of col using Primary Key ? Ask this Question
+  - Can I find the value of a col without using Primary Key ? Ask this Question
 - 3.5NF - BCNF (Boyce-Codd Normal Form)
 - 4NF (Fourth Normal Form)
 - 5NF (Fifth Normal Form)
