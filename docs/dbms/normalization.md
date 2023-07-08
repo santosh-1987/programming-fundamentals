@@ -31,4 +31,4 @@ DB Normalization is a technique that detects degree of redundancy(needless) of d
   - We cannot insert a record with 0 dependency. 
   - E.g If we have Student and Batch in Single table we cannot insert a Batch record with 0 Students
 - Delete Anomaly
-  ![image.png](../assets/images/rdbms/delete_anomaly.png)
+ ![image.png](../assets/images/rdbms/delete_anomaly.png)
