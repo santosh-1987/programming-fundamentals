@@ -13,7 +13,9 @@ DB Normalization is a technique that detects degree of redundancy(needless) of d
 - 2NF (Second Normal Form)
   - Rule 1- Be in 1NF
   - Rule 2- Single Column Primary Key that does not functionally dependant on any subset of candidate key relation
+  - ![img.png](../assets/images/rdbms/2nf_img.png)
   - ![img.png](../assets/images/rdbms/2nf.png)
+  - In the above Image the pk for mentor_sessions table is st_id, m_id and s_date and feedback col depends on all pk and m_name only depends on m_id hence its not complying with 2nf.
 - 3NF (Third Normal Form)
   - Rule 1- Be in 2NF
   - Rule 2- Has no transitive functional dependencies
@@ -28,7 +30,7 @@ DB Normalization is a technique that detects degree of redundancy(needless) of d
   ![image.png](../assets/images/rdbms/update_anamoly.png)
   - Data Inconsistency increases if we have duplicate data - A user can enter data with typo.
 - Insert Anomaly
-  - We cannot insert a record with 0 dependency. 
+  - We cannot insert a record with 0 dependency.
   - E.g If we have Student and Batch in Single table we cannot insert a Batch record with 0 Students
 - Delete Anomaly
- ![image.png](../assets/images/rdbms/delete_anomaly.png)
+  ![image.png](../assets/images/rdbms/delete_anomaly.png)
