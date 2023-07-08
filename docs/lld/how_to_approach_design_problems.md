@@ -45,5 +45,4 @@ Think ---> **Document**  --->  Discuss
      - Behaviour
        ![img.png](../assets/images/lld/tictactoe_req/img.png)
 4. Tech Design
-   1. Use Case Diagram
-      1. https://www.planttext.com/
+   - Create Use Case Diagram (https://www.planttext.com/)
