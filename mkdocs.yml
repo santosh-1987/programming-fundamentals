@@ -46,7 +46,7 @@ nav:
       - Manachers Algorithm: algorithms/manachers_algorithm.md
       - Kadanes Algorithm: algorithms/kadanes_algorithm.md
   - DBMS:
-      - DB Normalization: RDBMS/normalization.md
+      - DB Normalization: rdbms/normalization.md
   - Low Level Design:
       - How to Approach Design Problem: lld/how_to_approach_design_problems.md
       - Design a Pen: lld/design-a-pen.md
